@@ -1,0 +1,40 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "info": {
+                "title": "Kebab",
+                "category": "action",
+                "created": 1999,
+                "author": "Tarantino",
+                "actors": "Christian Bale",
+                "durationHours": 2,
+                "durationMinutes": 20
+            }
+        },
+        {
+            "id": 2,
+            "info": {
+                "title": "Pizza",
+                "category": "Comedy",
+                "created": 1939,
+                "author": "Christopher Nolan",
+                "actors": "Morgan Freeman",
+                "durationHours": 1,
+                "durationMinutes": 20
+            }
+        },
+        {
+            "id": 3,
+            "info": {
+                "title": "Pasta",
+                "category": "Romantic",
+                "created": 2009,
+                "author": "Felix Herngren",
+                "actors": "Fares Fares",
+                "durationHours": 0,
+                "durationMinutes": 50
+            }
+        }
+    ]
+}
