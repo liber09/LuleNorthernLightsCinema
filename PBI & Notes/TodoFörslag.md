@@ -1,8 +1,8 @@
 ## TODOS
 
+
 # Figma design 
     *burak*
-
 # startsida HTML
     
     HEADER
@@ -43,19 +43,13 @@
      - Activated when all neccessary fields are filled in
 
 
-# Main-Nav (epic)
+*S* = Small
+*M* = Medium
+*L* = Large
 
-* Öppetidder&kontakt *S* 
 
-* About *S*
+# Main-Nav *M* 
 
-* TicketInfo  *S*
-
-* Newsletter *S*
-
-* Giftcards *L*
-
-* SocialMedia-links *M*
 
 
 # Second-Nav (epic)
@@ -75,6 +69,7 @@
 
 # Section-Hero (epic) 
 
+* Bildvisning
 
 
 
@@ -83,16 +78,14 @@
   # else if (mobileLäge) {sectionNow, sectionSoon = litetKort}
   } ) 
 
-# Section-Now (epic)
+# Section-Now / # Section-Soon (epic)
 
-* styling & grid
+* styling & grid *M*
 
-* rendering av filmCard (outer container <div> -> with <a> element (clickAble to come to booking))
+* rendering av filmCard (outer container <div> -> with <a> element (clickAble to come to booking)) *M*
 
-* card booking (when clicking card, you come to a new for site for booking)
+* card booking (when clicking card, you come to a new for site for booking) *M*
 
-
-# Section-Soon (epic) 
 
 # Bar & Bistro (Food/Drink related things)
 
@@ -111,4 +104,5 @@
 *Moviequiz
 
     - As a user I want to know if there are any special events connected to food/drinks and what they are. 
+
 
