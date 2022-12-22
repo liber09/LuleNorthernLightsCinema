@@ -1,8 +1,8 @@
 ## TODOS
 
+
 # Figma design 
     *burak*
-
 # startsida HTML
     
     HEADER
@@ -42,6 +42,10 @@
     purchase button
      - Activated when all neccessary fields are filled in
 
+
+*S* = Small
+*M* = Medium
+*L* = Large
 
 # Main-Nav (epic)
 
@@ -83,14 +87,13 @@
   # else if (mobileLäge) {sectionNow, sectionSoon = litetKort}
   } ) 
 
-# Section-Now (epic)
+# Section-Now / # Section-Soon (epic)
 
-* styling & grid
+* styling & grid *M*
 
-* rendering av filmCard (outer container <div> -> with <a> element (clickAble to come to booking))
+* rendering av filmCard (outer container <div> -> with <a> element (clickAble to come to booking)) *M*
 
-* card booking (when clicking card, you come to a new for site for booking)
+* card booking (when clicking card, you come to a new for site for booking) *M*
 
-
-# Section-Soon (epic) 
-
+# Footer *S*
+styling & content 
