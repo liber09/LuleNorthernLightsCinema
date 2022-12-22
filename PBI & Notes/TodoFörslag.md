@@ -27,9 +27,20 @@
 
     movieCard (s)
 
-# bokningssida/modal
-    styling
-    innehåll
+# bokningssida/modal *L* - *XL*
+    Show seating plan
+     - Get JSON file with info about chairs and current booking status
+     - Update UI with already reserved seats and possibly other info such as wheelchair accessible seats etc according to JSON file 
+    User selects seats
+     - Update UI according to user selection
+    User select tickettype
+     - List available tickettypes and prices and also plus/minus signs to add or remove from cart
+    Summary of selected options
+     - Text only, selected seats, selected tickettypes price per ticket and sumary
+    Enter some information to be able to proceed purchase
+     - Fields with neccessary informnation to be able to proceed with booking
+    purchase button
+     - Activated when all neccessary fields are filled in
 
 
 # Main-Nav (epic)
