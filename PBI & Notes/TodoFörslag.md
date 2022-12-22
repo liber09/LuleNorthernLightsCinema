@@ -47,19 +47,9 @@
 *M* = Medium
 *L* = Large
 
-# Main-Nav (epic)
 
-* Öppetidder&kontakt *S* 
+# Main-Nav *M* 
 
-* About *S*
-
-* TicketInfo  *S*
-
-* Newsletter *S*
-
-* Giftcards *L*
-
-* SocialMedia-links *M*
 
 
 # Second-Nav (epic)
@@ -79,6 +69,7 @@
 
 # Section-Hero (epic) 
 
+* Bildvisning
 
 
 
