@@ -94,3 +94,21 @@
 
 # Section-Soon (epic) 
 
+# Bar & Bistro (Food/Drink related things)
+
+    - As a user i want to find content on the site aboout food and drinks
+
+* Page containing menu options
+
+    - As a user I want to know how to book a table.
+
+    - As a user I want to see what food options are available. 
+    (A la carte, specials, bistro)
+
+    - As a user i want to be able to tell what food items are vegan.
+
+* Page containing Special events(Friday Premiere)
+*Moviequiz
+
+    - As a user I want to know if there are any special events connected to food/drinks and what they are. 
+
