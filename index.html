@@ -4,14 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="static/main.css" />
     <title>LuleNorthernLightsCinema</title>
   </head>
   <body>
-    <header>
-      <h1>Lule NorthernLights Cinema</h1>
-      <h3>Din nordligaste Biograf</h3>
+    <header class="header">
+      <div class="top-header">
+        <!--  Make a good looking logotype later -->
+        <a href="index.html">
+          <img
+            class="logotype"
+            src="static/logga.jpg"
+            alt="logotype for the cinema"
+        /></a>
+        <h1>Lule Northern Lights Cinema</h1>
+        <img
+          id="hamburger-icon"
+          src="static/hamburger-icon.svg"
+          alt="hamburger-icon"
+        />
+      </div>
+
+      <nav>
+        <ul>
+          <a href="#"><li>Öppetider & Kontakt</li></a>
+          <a href="#"> <li>Om våran biograf</li></a>
+          <a href="#"> <li>Biljettinfo</li></a>
+          <a href="#"> <li>Nyheter</li></a>
+          <a href="#"><li>Köp presentkort</li></a>
+        </ul>
+      </nav>
     </header>
+
     <nav>
       <ul>
         <li>Filmer</li>
@@ -83,7 +107,7 @@
       </h2>
     </aside>
 
-    <footer>
+    <footer class="header-footer">
       <h2>Klassisk footer i guess</h2>
       <nav>
         <ul>
@@ -91,6 +115,29 @@
           <li>Hjälp</li>
         </ul>
       </nav>
+      <div class="media-links">
+        <a href="#">
+          <img
+            class="social-media-links"
+            src="static/facebook.svg"
+            alt="facebook icon"
+        /></a>
+        <a href="#">
+          <img
+            class="social-media-links"
+            src="static/instagram.svg"
+            alt="instagram icon"
+        /></a>
+        <a href="#">
+          <img
+            class="social-media-links"
+            src="static/twitter.svg"
+            alt="twitter icon"
+        /></a>
+        <a href="mailto:">
+          <img class="social-media-links" src="static/mail.svg" alt="mail icon"
+        /></a>
+      </div>
     </footer>
 
     <script src="./js/script.js"></script>
