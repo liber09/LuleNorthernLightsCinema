@@ -3,27 +3,34 @@
   border-radius: 0.4em 0.4em 1em 1em;
   box-shadow: 0 0.2em 0.3em black;
   color: $text-color;
-  min-height: 207px;
+  min-height: 150px;
 
   .top-header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 90px;
 
     .logotype {
-      margin-left: 30px;
       width: 5em;
       height: auto;
       border-radius: 60px;
     }
     h1 {
-      font-size: x-large;
+      font-size: xx-large;
+      display: flex;
+      margin-left: -80px;
     }
     #hamburger-icon {
-      right: 0;
+      right: 5px;
+      top: 10px;
+      position: absolute;
       width: 3em;
       margin: 0em 1em 0 0;
       @include iconColor;
+      //removing hamburger icon
+      @media screen and (min-width: $screen-breakpoint) {
+        display: none;
+      }
     }
   }
   nav {
@@ -48,6 +55,9 @@
           color: whitesmoke;
         }
       }
+    }
+    @media screen and (max-width: $screen-breakpoint) {
+      display: none;
     }
   }
 }
