@@ -18,8 +18,12 @@
     }
     h1 {
       font-size: xx-large;
+      font-family: $font-family;
       display: flex;
       margin-left: -80px;
+      @media screen and (min-width: $screen-breakpoint) {
+        font-size: 60px;
+      }
     }
     #hamburger-icon {
       right: 5px;
@@ -45,6 +49,7 @@
       list-style: none;
       text-decoration: none;
       font-size: 0.9em;
+      margin-bottom: 1em;
 
       a {
         text-decoration: none;
