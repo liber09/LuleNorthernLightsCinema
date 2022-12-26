@@ -1,8 +1,8 @@
 ## TODOS
 
+
 # Figma design 
     *burak*
-
 # startsida HTML
     
     HEADER
@@ -27,24 +27,29 @@
 
     movieCard (s)
 
-# bokningssida/modal
-    styling
-    innehåll
+# bokningssida/modal *L* - *XL*
+    Show seating plan
+     - Get JSON file with info about chairs and current booking status
+     - Update UI with already reserved seats and possibly other info such as wheelchair accessible seats etc according to JSON file 
+    User selects seats
+     - Update UI according to user selection
+    User select tickettype
+     - List available tickettypes and prices and also plus/minus signs to add or remove from cart
+    Summary of selected options
+     - Text only, selected seats, selected tickettypes price per ticket and sumary
+    Enter some information to be able to proceed purchase
+     - Fields with neccessary informnation to be able to proceed with booking
+    purchase button
+     - Activated when all neccessary fields are filled in
 
 
-# Main-Nav (epic)
+*S* = Small
+*M* = Medium
+*L* = Large
 
-* Öppetidder&kontakt *S* 
 
-* About *S*
+# Main-Nav *M* 
 
-* TicketInfo  *S*
-
-* Newsletter *S*
-
-* Giftcards *L*
-
-* SocialMedia-links *M*
 
 
 # Second-Nav (epic)
@@ -64,6 +69,7 @@
 
 # Section-Hero (epic) 
 
+* Bildvisning
 
 
 
@@ -72,14 +78,31 @@
   # else if (mobileLäge) {sectionNow, sectionSoon = litetKort}
   } ) 
 
-# Section-Now (epic)
+# Section-Now / # Section-Soon (epic)
 
-* styling & grid
+* styling & grid *M*
 
-* rendering av filmCard (outer container <div> -> with <a> element (clickAble to come to booking))
+* rendering av filmCard (outer container <div> -> with <a> element (clickAble to come to booking)) *M*
 
-* card booking (when clicking card, you come to a new for site for booking)
+* card booking (when clicking card, you come to a new for site for booking) *M*
 
 
-# Section-Soon (epic) 
+# Bar & Bistro (Food/Drink related things)
+
+    - As a user i want to find content on the site aboout food and drinks
+
+* Page containing menu options
+
+    - As a user I want to know how to book a table.
+
+    - As a user I want to see what food options are available. 
+    (A la carte, specials, bistro)
+
+    - As a user i want to be able to tell what food items are vegan.
+
+* Page containing Special events(Friday Premiere)
+*Moviequiz
+
+    - As a user I want to know if there are any special events connected to food/drinks and what they are. 
+
 
