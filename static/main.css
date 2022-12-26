@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 .header {
-  position: static;
   background-color: #112d4e;
   border-radius: 0.4em 0.4em 1em 1em;
   box-shadow: 0 0.2em 0.3em black;
   color: #dbe2ef;
+  min-height: 207px;
 }
 .header .top-header {
   display: flex;
   justify-content: space-evenly;
+  gap: 90px;
 }
 .header .top-header .logotype {
+  margin-left: 30px;
   width: 5em;
   height: auto;
   border-radius: 60px;
@@ -19,36 +21,31 @@
   font-size: x-large;
 }
 .header .top-header #hamburger-icon {
+  right: 0;
   width: 3em;
   margin: 0em 1em 0 0;
+  color: #dbe2ef;
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+}
+.header nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
 }
 .header nav ul {
   display: flex;
-  gap: 0.3em;
+  gap: 40px;
   list-style: none;
   text-decoration: none;
   font-size: 0.9em;
-  margin-right: 1em;
 }
 .header nav ul a {
   text-decoration: none;
   color: #dbe2ef;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 .header nav ul a:hover {
-  transform: scale(1.1);
-}
-.header .social-media-links {
-  width: 1em;
-  height: auto;
-  transition: 0.4s;
-}
-.header .social-media-links:hover {
-  transform: scale(1.1);
-}
-.header .social-media-links,
-.header #hamburger-icon {
-  margin-left: 2em;
-  color: #f5f5dc;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+  transform: scale(1.05);
+  color: whitesmoke;
 }

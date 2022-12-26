@@ -1,15 +1,17 @@
 .header {
-  position: static;
   background-color: $blue-color;
   border-radius: 0.4em 0.4em 1em 1em;
   box-shadow: 0 0.2em 0.3em black;
   color: $text-color;
+  min-height: 207px;
 
   .top-header {
     display: flex;
     justify-content: space-evenly;
+    gap: 90px;
 
     .logotype {
+      margin-left: 30px;
       width: 5em;
       height: auto;
       border-radius: 60px;
@@ -18,45 +20,34 @@
       font-size: x-large;
     }
     #hamburger-icon {
+      right: 0;
       width: 3em;
       margin: 0em 1em 0 0;
+      @include iconColor;
     }
   }
   nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: $font-size;
     ul {
       display: flex;
-      gap: 0.3em;
+      gap: 40px;
       list-style: none;
       text-decoration: none;
       font-size: 0.9em;
-      margin-right: 1em;
 
       a {
         text-decoration: none;
         color: $text-color;
-        transition: 0.4s;
+        transition: 0.2s;
 
         &:hover {
-          transform: scale(1.1);
+          transform: scale(1.05);
+          color: whitesmoke;
         }
       }
     }
-  }
-
-  .social-media-links {
-    width: 1em;
-    height: auto;
-    transition: 0.4s;
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-
-  .social-media-links,
-  #hamburger-icon {
-    margin-left: 2em;
-    color: #f5f5dc;
-    filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
-      brightness(105%) contrast(92%);
   }
 }
