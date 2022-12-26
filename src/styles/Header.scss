@@ -3,7 +3,7 @@
   background-color: $blue-color;
   border-radius: 0.4em 0.4em 1em 1em;
   box-shadow: 0 0.2em 0.3em black;
-  color: $white-color;
+  color: $text-color;
 
   .top-header {
     display: flex;
@@ -33,7 +33,7 @@
 
       a {
         text-decoration: none;
-        color: $white-color;
+        color: $text-color;
         transition: 0.4s;
 
         &:hover {
