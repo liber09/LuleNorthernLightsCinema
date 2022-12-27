@@ -18,10 +18,11 @@ footer {
 
     h3 {
       margin-bottom: 0.3em;
-      font-size: 20px;
+      font-size: 16px;
+      margin-top: 10px;
     }
     p {
-      font-size: 14px;
+      font-size: 12px;
     }
 
     .social-media-links {
@@ -33,13 +34,24 @@ footer {
       width: 100px;
       height: auto;
     }
+    #cinema-collab {
+      width: 100px;
+      height: auto;
+    }
+
     @media screen and (min-width: $screen-breakpoint) {
+      h3 {
+        font-size: 22px;
+      }
+      p {
+        font-size: $font-size;
+      }
       .social-media-links {
-        @include iconColor;
         padding: 3px;
         width: 2em;
       }
-      #municipality-logo {
+      #municipality-logo,
+      #cinema-collab {
         width: 200px;
         height: auto;
       }
