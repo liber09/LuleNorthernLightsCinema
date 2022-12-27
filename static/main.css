@@ -1,1 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.header {
+  background-color: #112d4e;
+  border-radius: 0em 0em 1em 1em;
+  box-shadow: 0 0.2em 0.3em black;
+  color: #dbe2ef;
+  min-height: 150px;
+}
+.header .top-header {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.header .top-header .logotype {
+  width: 5em;
+  height: auto;
+  border-radius: 60px;
+}
+.header .top-header h1 {
+  font-size: xx-large;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  margin-left: -80px;
+}
+@media screen and (min-width: 750px) {
+  .header .top-header h1 {
+    font-size: 60px;
+  }
+}
+.header .top-header #hamburger-icon {
+  right: 5px;
+  top: 10px;
+  position: absolute;
+  width: 3em;
+  margin: 0em 1em 0 0;
+  color: #dbe2ef;
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+}
+@media screen and (min-width: 750px) {
+  .header .top-header #hamburger-icon {
+    display: none;
+  }
+}
+.header nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+.header nav ul a {
+  text-decoration: none;
+  color: #dbe2ef;
+  transition: 0.2s;
+}
+.header nav ul a:hover {
+  transform: scale(1.05);
+  color: whitesmoke;
+}
+@media screen and (max-width: 750px) {
+  .header nav {
+    display: none;
+  }
+}

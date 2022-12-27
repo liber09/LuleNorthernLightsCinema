@@ -1,0 +1,69 @@
+.header {
+  background-color: $blue-color;
+  border-radius: 0em 0em 1em 1em;
+  box-shadow: 0 0.2em 0.3em black;
+  color: $text-color;
+  min-height: 150px;
+
+  .top-header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+    .logotype {
+      width: 5em;
+      height: auto;
+      border-radius: 60px;
+    }
+    h1 {
+      font-size: xx-large;
+      font-family: $font-family;
+      display: flex;
+      margin-left: -80px;
+      @media screen and (min-width: $screen-breakpoint) {
+        font-size: 60px;
+      }
+    }
+    #hamburger-icon {
+      right: 5px;
+      top: 10px;
+      position: absolute;
+      width: 3em;
+      margin: 0em 1em 0 0;
+      @include iconColor;
+      //removing hamburger icon
+      @media screen and (min-width: $screen-breakpoint) {
+        display: none;
+      }
+    }
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: $font-size;
+    ul {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+      text-decoration: none;
+      font-size: 0.9em;
+      margin-bottom: 1em;
+
+      a {
+        text-decoration: none;
+        color: $text-color;
+        transition: 0.2s;
+
+        &:hover {
+          transform: scale(1.05);
+          color: whitesmoke;
+        }
+      }
+    }
+    @media screen and (max-width: $screen-breakpoint) {
+      display: none;
+    }
+  }
+}
