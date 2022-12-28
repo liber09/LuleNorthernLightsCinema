@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  background-image: url("../static/background.png");
+}
+
 .header {
   background-color: #112d4e;
   border-radius: 0em 0em 1em 1em;
@@ -138,16 +142,12 @@ footer .footer-sections #cinema-collab {
 }
 
 .content {
-  width: 750px;
-  padding: 0 15px 0 15px;
+  width: 863px;
+  padding: 0 15px 15px 15px;
   margin: auto;
   background-color: #112d4e;
   color: whitesmoke;
-}
-@media screen and (min-width: 750px) {
-  .content {
-    width: 1160px;
-  }
+  text-align: center;
 }
 .content h2 {
   font-size: 30px;
@@ -158,10 +158,18 @@ footer .footer-sections #cinema-collab {
 }
 .content a a:link {
   text-decoration: none;
+  color: lightskyblue;
 }
 .content a a:visited {
   text-decoration: none;
+  color: lightskyblue;
 }
 .content a a:active {
   text-decoration: none;
+  color: lightskyblue;
+}
+@media screen and (min-width: 750px) {
+  .content {
+    width: 1170px;
+  }
 }
