@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --no-source-map styles/main.scss static/main.css",
-    "watch": "sass --no-source-map --watch styles/main.scss static/main.css"
+    "watch": "sass --no-source-map --watch src/main.scss static/main.css"
   },
   "repository": {
     "type": "git",
