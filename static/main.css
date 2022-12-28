@@ -141,32 +141,46 @@ footer .footer-sections #cinema-collab {
   }
 }
 
-.content {
+.pageHeader {
   width: 863px;
-  padding: 0 15px 15px 15px;
-  margin: auto;
+  padding: 20px;
+  margin: 0 auto 3em auto;
   background-color: #112d4e;
   color: whitesmoke;
   text-align: center;
 }
-.content h2 {
-  font-size: 30px;
+.pageHeader h2 {
+  font-size: 40px;
   padding: 1em 1em 1em 0;
+}
+@media screen and (min-width: 750px) {
+  .pageHeader {
+    width: 1170px;
+  }
+  .pageHeader h2 {
+    font-size: 100px;
+    padding: 1em 1em 1em 0;
+  }
+}
+
+.content {
+  width: 863px;
+  padding: 0 15px 15px 15px;
+  margin: 0 auto 3em auto;
+  background-color: #112d4e;
+  color: whitesmoke;
+  text-align: center;
 }
 .content p {
   padding: 1em 1em 1em 0;
+  font-size: 1.1em;
 }
-.content a a:link {
+.content a {
   text-decoration: none;
   color: lightskyblue;
 }
-.content a a:visited {
-  text-decoration: none;
-  color: lightskyblue;
-}
-.content a a:active {
-  text-decoration: none;
-  color: lightskyblue;
+.content a :hover {
+  text-decoration: underline;
 }
 @media screen and (min-width: 750px) {
   .content {
