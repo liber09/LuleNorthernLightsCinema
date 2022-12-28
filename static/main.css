@@ -6,75 +6,73 @@
   box-sizing: border-box;
 }
 
-.header {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 10 \2502  @import "styles/pages/newsletter.scss";\a    \2502                                        ^\a    \2575 \a   src/main.scss 10:39  root stylesheet';
+}
+
+footer {
   background-color: #112d4e;
-  border-radius: 0em 0em 1em 1em;
+  border-radius: 1em 1em 0em 0em;
   box-shadow: 0 0.2em 0.3em black;
   color: #dbe2ef;
   min-height: 150px;
-}
-.header .top-header {
-  padding-top: 40px;
-  display: flex;
-  justify-content: center;
-  gap: 90px;
-}
-.header .top-header .logotype {
-  width: 5em;
-  height: auto;
-  border-radius: 60px;
-}
-.header .top-header h1 {
-  font-size: xx-large;
+  gap: 30px;
   font-family: "Inter", sans-serif;
-  display: flex;
-  margin-left: -80px;
 }
 @media screen and (min-width: 750px) {
-  .header .top-header h1 {
-    font-size: 60px;
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }
-.header .top-header #hamburger-icon {
-  right: 5px;
-  top: 10px;
-  position: absolute;
-  width: 3em;
-  margin: 0em 1em 0 0;
+footer .footer-sections {
+  padding: 10px 0 10px 20px;
+  margin: 0.5em;
+}
+footer .footer-sections h3 {
+  margin-bottom: 0.3em;
+  font-size: 16px;
+  margin-top: 10px;
+}
+footer .footer-sections p {
+  font-size: 12px;
+}
+footer .footer-sections .social-media-links {
   color: #dbe2ef;
   filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+  padding: 3px;
+}
+footer .footer-sections #municipality-logo {
+  width: 100px;
+  height: auto;
+}
+footer .footer-sections #cinema-collab {
+  width: 100px;
+  height: auto;
 }
 @media screen and (min-width: 750px) {
-  .header .top-header #hamburger-icon {
-    display: none;
+  footer .footer-sections h3 {
+    font-size: 22px;
   }
-}
-.header nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  font-size: 20px;
-}
-.header nav ul {
-  display: flex;
-  gap: 40px;
-  list-style: none;
-  text-decoration: none;
-  font-size: 0.9em;
-  margin-bottom: 1em;
-}
-.header nav ul a {
-  text-decoration: none;
-  color: #dbe2ef;
-  transition: 0.2s;
-}
-.header nav ul a:hover {
-  transform: scale(1.05);
-  color: whitesmoke;
-}
-@media screen and (max-width: 750px) {
-  .header nav {
-    display: none;
+  footer .footer-sections p {
+    font-size: 20px;
+  }
+  footer .footer-sections .social-media-links {
+    padding: 3px;
+    width: 2em;
+  }
+  footer .footer-sections #municipality-logo,
+  footer .footer-sections #cinema-collab {
+    width: 200px;
+    height: auto;
   }
 }
 
