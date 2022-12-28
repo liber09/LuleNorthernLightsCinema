@@ -6,15 +6,76 @@
   box-sizing: border-box;
 }
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
+.header {
+  background-color: #112d4e;
+  border-radius: 0em 0em 1em 1em;
+  box-shadow: 0 0.2em 0.3em black;
+  color: #dbe2ef;
+  min-height: 150px;
+}
+.header .top-header {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.header .top-header .logotype {
+  width: 5em;
+  height: auto;
+  border-radius: 60px;
+}
+.header .top-header h1 {
+  font-size: xx-large;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  margin-left: -80px;
+}
+@media screen and (min-width: 750px) {
+  .header .top-header h1 {
+    font-size: 60px;
+  }
+}
+.header .top-header #hamburger-icon {
+  right: 5px;
+  top: 10px;
+  position: absolute;
+  width: 3em;
+  margin: 0em 1em 0 0;
+  color: #dbe2ef;
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+}
+@media screen and (min-width: 750px) {
+  .header .top-header #hamburger-icon {
+    display: none;
+  }
+}
+.header nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 0.9em;
   margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 10 \2502  @import "styles/pages/newsletter.scss";\a    \2502                                        ^\a    \2575 \a   src/main.scss 10:39  root stylesheet';
+}
+.header nav ul a {
+  text-decoration: none;
+  color: #dbe2ef;
+  transition: 0.2s;
+}
+.header nav ul a:hover {
+  transform: scale(1.05);
+  color: whitesmoke;
+}
+@media screen and (max-width: 750px) {
+  .header nav {
+    display: none;
+  }
 }
 
 footer {
@@ -76,6 +137,31 @@ footer .footer-sections #cinema-collab {
   }
 }
 
-h2 {
-  font-size: 20px;
+.content {
+  width: 750px;
+  padding: 0 15px 0 15px;
+  margin: auto;
+  background-color: #112d4e;
+  color: whitesmoke;
+}
+@media screen and (min-width: 750px) {
+  .content {
+    width: 1160px;
+  }
+}
+.content h2 {
+  font-size: 30px;
+  padding: 1em 1em 1em 0;
+}
+.content p {
+  padding: 1em 1em 1em 0;
+}
+.content a a:link {
+  text-decoration: none;
+}
+.content a a:visited {
+  text-decoration: none;
+}
+.content a a:active {
+  text-decoration: none;
 }
