@@ -41,7 +41,7 @@ html {
 }
 .header .top-header #hamburger-icon {
   right: 5px;
-  top: 10px;
+  top: 3px;
   position: absolute;
   width: 3em;
   margin: 0em 1em 0 0;
@@ -61,18 +61,21 @@ html {
 }
 .header nav .main-nav {
   display: none;
-  gap: 40px;
+}
+.header nav .main-nav.show {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   list-style: none;
   text-decoration: none;
   font-size: 0.9em;
   margin-bottom: 1em;
 }
-.header nav .main-nav.show {
-  display: flex;
-}
 @media screen and (min-width: 750px) {
   .header nav .main-nav {
     display: flex;
+    list-style: none;
+    gap: 2.5em;
   }
 }
 .header nav .main-nav a {

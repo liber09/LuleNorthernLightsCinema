@@ -27,7 +27,7 @@
     }
     #hamburger-icon {
       right: 5px;
-      top: 10px;
+      top: 3px;
       position: absolute;
       width: 3em;
       margin: 0em 1em 0 0;
@@ -45,18 +45,21 @@
     font-size: $font-size;
     .main-nav {
       display: none;
-      gap: 40px;
-      list-style: none;
-      text-decoration: none;
-      font-size: 0.9em;
-      margin-bottom: 1em;
 
       &.show {
         display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style: none;
+        text-decoration: none;
+        font-size: 0.9em;
+        margin-bottom: 1em;
       }
 
       @media screen and (min-width: $screen-breakpoint) {
         display: flex;
+        list-style: none;
+        gap: 2.5em;
       }
 
       a {
