@@ -59,27 +59,30 @@ html {
   margin-top: 30px;
   font-size: 20px;
 }
-.header nav ul {
-  display: flex;
+.header nav .main-nav {
+  display: none;
   gap: 40px;
   list-style: none;
   text-decoration: none;
   font-size: 0.9em;
   margin-bottom: 1em;
 }
-.header nav ul a {
+.header nav .main-nav.show {
+  display: flex;
+}
+@media screen and (min-width: 750px) {
+  .header nav .main-nav {
+    display: flex;
+  }
+}
+.header nav .main-nav a {
   text-decoration: none;
   color: #dbe2ef;
   transition: 0.2s;
 }
-.header nav ul a:hover {
+.header nav .main-nav a:hover {
   transform: scale(1.05);
   color: whitesmoke;
-}
-@media screen and (max-width: 750px) {
-  .header nav {
-    display: none;
-  }
 }
 
 footer {
