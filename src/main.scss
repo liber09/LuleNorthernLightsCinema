@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html{
+  background-image: url("../static/background.png");
+}
+
 @import "variables.scss";
 @import "styles/Header.scss";
 @import "styles/ticket-info-page.scss";
+
