@@ -62,9 +62,72 @@
             ],
             "director": "Felix Herngren",
             "language": "Svenska",
-            "rating": 0
+            "rating": 6
+        },
+        {
+            "title": "Mästerkatten 2",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/6453dceea4974453b96b3e2554ab60f8.jpg?width=240&version=9C5057DB4FEA44C8765736FA08AE9B9C&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/1e847970b5374ea29d7fae160e60aa5a.jpg?width=1920&version=FD4C45B3F2D425DE3321B1B0896FB1E8", 
+            "Genre": "Animerat",
+            "year": 2022,
+            "Length": 103,
+            "ageLimit": 0,
+            "description": "Den djärve lagbrytaren Mästerkatten upptäcker att hans passion för fara, och orädda våghalsighet, har tagit ut sin rätt. Mästerkatten har tappat räkningen och har gjort av med åtta av sina nio liv. Det finns en önskestjärna som kan återställa hans förlorade liv och han ger sig ut på en resa som leder honom in i den svarta skogen. Men med bara ett liv kvar, måste Mästerkatten bli ödmjuk och be om hjälp från sin tidigare partner och fiende: den fängslande Kitty Mjuktass.",
+            "actors": [
+                "Antonio Banderas","Salma Hayek","Harvey Guillén","Florence Pugh","	John Mulaney"
+            ],
+            "director": "Joel Crawford",
+            "language": "Engelska",
+            "rating": 8
+        },
+        {
+            "title": "Decision to Leave",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/e4997120e0474bb990ec97ed6ec4552c.jpg?width=240&version=8AF55F733B405FA72FF5649F65DED9F7&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/cd433e384df3480ababb82d130ff5d89.jpg?width=1920&version=0D5462547669E215172AE0843B834D72", 
+            "Genre": "Kriminaldrama",
+            "year": 2022,
+            "Length": 138,
+            "ageLimit": 11,
+            "description": "Den timide polisen Haejun undersöker ett mystiskt fall där en klättrare fallit mot sin död. Offrets förföriska änka, Sorae, är misstänkt kylig men har snart Haejun lindad runt sitt lillfinger. Decision to Leave är en nyskapande thriller, där passion och rättvisa är drivkrafterna i en tät berättelse vars vändningar är omöjliga att förutspå. Filmen är Sydkoreas Oscarsbidrag, och den senaste från mästarregissören Park Chan-wook.",
+            "actors": [
+                "Tang Wei","Park Hae-il","Go Kyung-Pyo","Lee Jung-hyun","Shin-Young Kim"
+            ],
+            "director": "Park Chan-wook",
+            "language": "Koreanska",
+            "rating": 7.5
+        },
+        {
+            "title": "A Man Called Otto",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/094955d629394d79973e70e5a6df7f36.jpg?width=240&version=704BEAF6F3BB9DD165537E9611CB97E9&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/5cc021f21cc845d08ba475df52bebe8c.jpg?width=1920&version=C4F0512F491BCB02B20037913459F390", 
+            "Genre": "Komedi",
+            "year": 2023,
+            "Length": 126,
+            "ageLimit": 11,
+            "description": "Otto Anderson är en grinig änkeman, vars enda glädje kommer från att kritisera och döma sina upprörda grannar. När en ny familj flyttar in möter han sin match i kvicktänkta och höggravida Marisol, vilket leder till en oväntad vänskap som kommer att vända upp och ner på hans värld. A Man Called Otto är den amerikanska re-maken av den svenska bok och filmsuccén En man som heter Ove.",
+            "actors": [
+                "Tom Hanks","Mariana Treviño","Rachel Keller","Manuel Garcia-Rulfo","Kailey Hyman"
+            ],
+            "director": "Marc Forster",
+            "language": "Engelska",
+            "rating": 7.5
+        },
+        {
+            "title": "Whitney Houston: I Wanna Dance With Somebody",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/fae1239050634160b2fc5c9350bc5faa.jpg?width=240&version=618D225EE66B063CDA2D1ECB89923950&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/837d8cc6f9c4460dac47e4d938f0d75b.jpg?width=1920&version=1207757448FA3C7F6DF03882835BF9E1", 
+            "Genre": "Biografi",
+            "year": 2022,
+            "Length": 144,
+            "ageLimit": 7,
+            "description": "En biografisk film baserad på sångerskan Whitney Houstons storartade liv där vi får följa hennes känslofyllda och livfulla resa genom hennes karriär och musik.",
+            "actors": [
+                "Naomi Ackie","Ashton Sanders","Clarke Peters","Tamara Tunie","Stanley Tucci"
+            ],
+            "director": "Kasi Lemmons",
+            "language": "Engelska",
+            "rating": 7
         }
-        
 
     ]
 }
