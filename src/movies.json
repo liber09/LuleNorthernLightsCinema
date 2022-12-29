@@ -1,25 +1,9 @@
 {
-    "title": "",
-    "posterImageUrl": "",
-    "movieSceneImageUrl": "", 
-    "Genre": "",
-    "year": 0,
-    "Length": 0,
-    "ageLimit": 0,
-    "description": "",
-    "actors": [
-        "",""
-    ],
-    "director": "",
-    "language": "",
-    "rating": 0
-},
-{
     "movies": [
         {
             "title": "Avatar: The Way of Water",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/d9f7fb05217d42878fcd52f7fc7259f7.jpg?width=240&version=59CE7B4BB38464CBD2D36ECB688C3F26&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/e1a05650da6d47829cbf98cbf689a2e1.jpg?width=1920&version=AFF52CB1C6B646196714FBDFFF0342C8", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/d9f7fb05217d42878fcd52f7fc7259f7.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/e1a05650da6d47829cbf98cbf689a2e1.jpg", 
             "Genre": "Action",
             "year": 2022,
             "Length": 192,
@@ -34,8 +18,8 @@
         },
         {
             "title": "UFO Sweden",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/140986ef11d34ca3b58b8471d4fe01d5.jpg?width=240&version=923C7F99DE9EE8647C1546F668D7CF5B&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/59b470831305426dbda264f929efa291.jpg?width=1920&version=C7EDDE7CC9A3A12E9966422A4D184AB0", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/140986ef11d34ca3b58b8471d4fe01d5.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/59b470831305426dbda264f929efa291.jpg", 
             "Genre": "Äventyr",
             "year": 2022,
             "Length": 115,
@@ -50,8 +34,8 @@
         },
         {
             "title": "Länge leve Bonusfamiljen",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/7dc1d4cba7094f00be816fad4b951a4a.jpg?width=240&version=CF23CDB7CEC37204643D9B2A9BF7307D&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/db1ffe8c233e42c2bc2a787a84bb7c5f.jpg?width=1920&version=9617B38D78E1038B76800DFB7186D2DB", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/7dc1d4cba7094f00be816fad4b951a4a.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/db1ffe8c233e42c2bc2a787a84bb7c5f.jpg", 
             "Genre": "Komedi",
             "year": 2022,
             "Length": 107,
@@ -66,8 +50,8 @@
         },
         {
             "title": "Mästerkatten 2",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/6453dceea4974453b96b3e2554ab60f8.jpg?width=240&version=9C5057DB4FEA44C8765736FA08AE9B9C&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/1e847970b5374ea29d7fae160e60aa5a.jpg?width=1920&version=FD4C45B3F2D425DE3321B1B0896FB1E8", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/6453dceea4974453b96b3e2554ab60f8.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/1e847970b5374ea29d7fae160e60aa5a.jpg", 
             "Genre": "Animerat",
             "year": 2022,
             "Length": 103,
@@ -82,8 +66,8 @@
         },
         {
             "title": "Decision to Leave",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/e4997120e0474bb990ec97ed6ec4552c.jpg?width=240&version=8AF55F733B405FA72FF5649F65DED9F7&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/cd433e384df3480ababb82d130ff5d89.jpg?width=1920&version=0D5462547669E215172AE0843B834D72", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/e4997120e0474bb990ec97ed6ec4552c.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/cd433e384df3480ababb82d130ff5d89.jpg", 
             "Genre": "Kriminaldrama",
             "year": 2022,
             "Length": 138,
@@ -98,8 +82,8 @@
         },
         {
             "title": "A Man Called Otto",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/094955d629394d79973e70e5a6df7f36.jpg?width=240&version=704BEAF6F3BB9DD165537E9611CB97E9&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/5cc021f21cc845d08ba475df52bebe8c.jpg?width=1920&version=C4F0512F491BCB02B20037913459F390", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/094955d629394d79973e70e5a6df7f36.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/5cc021f21cc845d08ba475df52bebe8c.jpg", 
             "Genre": "Komedi",
             "year": 2023,
             "Length": 126,
@@ -114,8 +98,8 @@
         },
         {
             "title": "Whitney Houston: I Wanna Dance With Somebody",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/fae1239050634160b2fc5c9350bc5faa.jpg?width=240&version=618D225EE66B063CDA2D1ECB89923950&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/837d8cc6f9c4460dac47e4d938f0d75b.jpg?width=1920&version=1207757448FA3C7F6DF03882835BF9E1", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/fae1239050634160b2fc5c9350bc5faa.jpg ",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/837d8cc6f9c4460dac47e4d938f0d75b.jpg", 
             "Genre": "Biografi",
             "year": 2022,
             "Length": 144,
@@ -130,8 +114,8 @@
         },
         {
             "title": "Håkan Bråkan",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/2bab9437bcc2441fb342cc9d0a426c72.jpg?width=240&version=38E6BA669AD938FAEDC04975DEF4C74F&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/bc1961e022b24accae1c7988e2cc1449.jpg?width=1920&version=9D0A16A8C0FDDCD0DA0B4459E373F0A8", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/2bab9437bcc2441fb342cc9d0a426c72.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/bc1961e022b24accae1c7988e2cc1449.jpg", 
             "Genre": "Familjefilm",
             "year": 2022,
             "Length": 99,
@@ -146,8 +130,8 @@
         },
         {
             "title": "Black Panther: Wakanda Forever",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/fc58bb76012a456a965321c3790f5806.jpg?width=240&version=CEB2D31720E7E01D30F5259B9B2E598D&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/650a3b34e77343ac8f335982958746fb.jpg?width=1920&version=DA0AC942D19BE12C7AAC34F01DD5159B", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/fc58bb76012a456a965321c3790f5806.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/650a3b34e77343ac8f335982958746fb.jpg", 
             "Genre": "Action",
             "year": 2022,
             "Length": 161,
@@ -162,8 +146,8 @@
         },
         {
             "title": "Black Adam",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/87edee22bf184c03b1861c823e5d3d03.jpg?width=240&version=A9EC7493F3D797D8035117577146CEBC&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/afc018b9426c4517bbc7cd631db1212f.jpg?width=1920&version=94C238877A7FCAF0FDD8985105056EBF", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/87edee22bf184c03b1861c823e5d3d03.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/afc018b9426c4517bbc7cd631db1212f.jpg", 
             "Genre": "Action",
             "year": 2022,
             "Length": 124,
@@ -178,8 +162,8 @@
         },
         {
             "title": "En sång för min dotter",
-            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/4789ac121cd94f49a61f1037127b50a6.jpg?width=240&version=3C02CFA10B2E40B7C8BAC12939439F88&format=webp",
-            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/5009948137d64a0cb014f52b4c0182ed.jpg?width=1920&version=9D4D64B1DCAB751FF8C42BF201F7B3B8", 
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/4789ac121cd94f49a61f1037127b50a6.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/5009948137d64a0cb014f52b4c0182ed.jpg", 
             "Genre": "Drama",
             "year": 2023,
             "Length": 104,
@@ -192,5 +176,69 @@
             "language": "Spanska",
             "rating": 7.5
         },
+        {
+            "title": "Sagan om Ringen: Härskarringen Extended Version",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/bba849aa1a174a7882d4003eb8d0ba81.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/a5efb1b520c547b992543fc6cf9ade89.jpg", 
+            "Genre": "Äventyr",
+            "year": 2001,
+            "Length": 218,
+            "ageLimit": 11,
+            "description": "Den unge hoben Frodo ärver en magisk ring av sin kusin Bilbo. Frodo får snart veta att dess ursprunglige skapare, den onde trollkarlen Sauron, desperat letar efter ringen. Ringen har onda krafter som Sauron behöver för att förslava hela Midgård. Det finns bara en utväg, att förstöra ringen i Domedagsklyftan. Ett litet sällskap om nio utvalda ger sig iväg med den motvillige Frodo. Det blir en färd fylld av äventyr och fasor.",
+            "actors": [
+                "Elijah Wood","Sean Astin","Ian Holm","Ian McKellen","Christopher Lee"
+            ],
+            "director": "Peter Jackson",
+            "language": "Engelska",
+            "rating": 9.5
+        },
+        {
+            "title": "Feed",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/6a096f3ad0fc4b479a075bba7283c306.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/fa99cd0064f14310a279f49751be8112.jpg", 
+            "Genre": "Skräck",
+            "year": 2022,
+            "Length": 100,
+            "ageLimit": 15,
+            "description": "En grupp ungdomar med en välkänd influencer i spetsen blir inbjudna till en exklusiv campinganläggning mitt ute i vildmarken. Med siktet ställt på innehåll av högsta kvalitet åker de ut till en liten ö för några dagar av lyxigt vildmarksliv, redo att dela allt med sina följare. Men det finns något där ute, något som vill dem illa, något som inte går att förklara. Ganska snart handlar det inte längre om att hålla flödet levande, utan om att själv överleva.",
+            "actors": [
+                "Molly Nutley","Sofia Kappel","Joel Lützow","Vincent Grahl","Emelina Rosenstielke"
+            ],
+            "director": "Johannes Persson",
+            "language": "Svenska",
+            "rating": 6.5
+        },
+        {
+            "title": "M3GAN",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/7fb29854916c4a6e9aa333c60328a39d.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/adaa451ef41a47dcaa10ff2113718454.jpg", 
+            "Genre": "Skräck",
+            "year": 2023,
+            "Length": 102,
+            "ageLimit": 15,
+            "description": "M3GAN är ett under av artificiell intelligens, en verklighetstrogen docka programmerad att vara ett barns bästa följeslagare och en förälders främsta allierade. Designad av leksaksföretagets briljanta robottekniker Gemma, kan M3GAN lyssna, se och lära sig medan hon blir vän, lärare, lekkamrat och beskyddare till barnet hon är knuten till. När Gemma plötsligt blir vårdnadshavare för sin föräldralösa 8-åriga systerdotter, Cady, är Gemma osäker och oförberedd på att bli förälder. Under intensiv press på jobbet, bestämmer sig Gemma för att para ihop sin M3GAN-prototyp med Cady i ett försök att lösa båda problemen – ett beslut som kommer att få ofattbara konsekvenser.",
+            "actors": [
+                "Allison Williams","Gerard Johnstone","Ronny Chieng","Brian Jordan Alvarez","Jen Van Epps"
+            ],
+            "director": "Gerard Johnstone",
+            "language": "Engelska",
+            "rating": 5.5
+        },
+        {
+            "title": "Plane",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/2f3c2aad68f54be5b0632680560c99be.jpg",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/47163d650eb84c10a9b2724eb19dedbb.jpg", 
+            "Genre": "Action",
+            "year": 2023,
+            "Length": 107,
+            "ageLimit": 15,
+            "description": "Piloten Ray Torrance lyckas på ett heroiskt sätt landa ett svårt stormskadat flygplan på en avlägsen ö utanför Filippinerna. Snart inser de att de befinner sig i en laglös krigszon och de blir snabbt måltavla för hänsynslösa terrorister som vill ta planet och dess passagerare som gisslan. Det blir upp till Ray att lösa ytterligare en livsfarlig situation och föra passagerarna i säkerhet.",
+            "actors": [
+                "Gerard Butler","Daniella Pineda","Mike Colter","Tony Goldwyn"
+            ],
+            "director": "Jean-François Richet",
+            "language": "Engelska",
+            "rating": 0
+        }
     ]
 }
