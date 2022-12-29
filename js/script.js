@@ -1,7 +1,7 @@
 // adding cards to frontpage
 let movies;
 
-let ul = document.querySelector(".class");
+let div = document.querySelector(".picture-container");
 let li;
 
 async function displayCards() {
@@ -15,7 +15,7 @@ async function displayCards() {
     img.setAttribute("src", movieAll.posterImageUrl);
     img.setAttribute("alt", "Hej");
     img.classList.add("cards");
-    ul.append(img);
+    div.append(img);
     console.log(img);
   });
 }
