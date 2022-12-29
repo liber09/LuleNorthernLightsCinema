@@ -1,13 +1,70 @@
 {
+    "title": "",
+    "posterImageUrl": "",
+    "movieSceneImageUrl": "", 
+    "Genre": "",
+    "year": 0,
+    "Length": 0,
+    "ageLimit": 0,
+    "description": "",
+    "actors": [
+        "",""
+    ],
+    "director": "",
+    "language": "",
+    "rating": 0
+},
+{
     "movies": [
         {
-            "title": "Titanic",
-            "year": 1997
+            "title": "Avatar: The Way of Water",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/d9f7fb05217d42878fcd52f7fc7259f7.jpg?width=240&version=59CE7B4BB38464CBD2D36ECB688C3F26&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/e1a05650da6d47829cbf98cbf689a2e1.jpg?width=1920&version=AFF52CB1C6B646196714FBDFFF0342C8", 
+            "Genre": "Action",
+            "year": 2022,
+            "Length": 192,
+            "ageLimit": 11,
+            "description": "Mer än tio år efter händelserna i den första filmen berättar ”Avatar The Way of Water” historien om familjen Sully (Jake, Neytiri och deras barn), problemen som följer dem, allt de gör för att leva i säkerhet, slagen de utkämpar för att hålla sig levande och tragedierna de måste utstå.",
+            "actors": [
+                "Sam Worthington","Zoe Saldana","Sigourney Weaver","Stephen Lang","Kate Winslet"
+            ],
+            "director": "James Cameron",
+            "language": "Engelska",
+            "rating": 8
         },
         {
-            "title": "Pulp fiction",
-            "year": 1994
-
+            "title": "UFO Sweden",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/140986ef11d34ca3b58b8471d4fe01d5.jpg?width=240&version=923C7F99DE9EE8647C1546F668D7CF5B&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/59b470831305426dbda264f929efa291.jpg?width=1920&version=C7EDDE7CC9A3A12E9966422A4D184AB0", 
+            "Genre": "Äventyr",
+            "year": 2022,
+            "Length": 115,
+            "ageLimit": 11,
+            "description": "UFO Sweden är en förening som utreder övernaturliga fenomen. En dag dyker tonårsrebellen Denise upp med ett fall som inte liknar något de sett tidigare. Tillsammans ger de sig ut på ett riskfyllt äventyr, som tar dem långt utanför lagens gränser och in i en värld av oförklarliga fenomen.",
+            "actors": [
+                "Inez Dahl Torhaug","Jesper Barkselius","Sara Shirpey","Eva Melander","Oscar Töringe"
+            ],
+            "director": "Victor Danell",
+            "language": "Svenska",
+            "rating": 7.5
+        },
+        {
+            "title": "Länge leve Bonusfamiljen",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/7dc1d4cba7094f00be816fad4b951a4a.jpg?width=240&version=CF23CDB7CEC37204643D9B2A9BF7307D&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/db1ffe8c233e42c2bc2a787a84bb7c5f.jpg?width=1920&version=9617B38D78E1038B76800DFB7186D2DB", 
+            "Genre": "Komedi",
+            "year": 2022,
+            "Length": 107,
+            "ageLimit": 0,
+            "description": "Hur länge ska man kämpa för sitt äktenskap och kan man förlåta otrohet? Lisa och Patrik har lappat ihop sitt äktenskap efter Patriks otrohet ett år tidigare när ett brev från tingsrätten dimper ner. Det visar sig att Lisa glömt bort att hon lämnade in skilsmässopapper när det var som sämst mellan dem och nu är skilsmässan ett faktum. Patrik bli bestört, han vill absolut inte vara skild från Lisa och bestämmer sig för att överraska henne i fjällen med ett bröllop på nyårsafton.",
+            "actors": [
+                "Vera Vitali","Erik Johansson","Fredrik Hallgren","Johan Ulveson","Niklas Engdahl" 
+            ],
+            "director": "Felix Herngren",
+            "language": "Svenska",
+            "rating": 0
         }
+        
+
     ]
 }
