@@ -74,7 +74,7 @@
             "ageLimit": 0,
             "description": "Den djärve lagbrytaren Mästerkatten upptäcker att hans passion för fara, och orädda våghalsighet, har tagit ut sin rätt. Mästerkatten har tappat räkningen och har gjort av med åtta av sina nio liv. Det finns en önskestjärna som kan återställa hans förlorade liv och han ger sig ut på en resa som leder honom in i den svarta skogen. Men med bara ett liv kvar, måste Mästerkatten bli ödmjuk och be om hjälp från sin tidigare partner och fiende: den fängslande Kitty Mjuktass.",
             "actors": [
-                "Antonio Banderas","Salma Hayek","Harvey Guillén","Florence Pugh","	John Mulaney"
+                "Antonio Banderas","Salma Hayek","Harvey Guillén","Florence Pugh","John Mulaney"
             ],
             "director": "Joel Crawford",
             "language": "Engelska",
@@ -127,7 +127,70 @@
             "director": "Kasi Lemmons",
             "language": "Engelska",
             "rating": 7
-        }
-
+        },
+        {
+            "title": "Håkan Bråkan",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/2bab9437bcc2441fb342cc9d0a426c72.jpg?width=240&version=38E6BA669AD938FAEDC04975DEF4C74F&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/bc1961e022b24accae1c7988e2cc1449.jpg?width=1920&version=9D0A16A8C0FDDCD0DA0B4459E373F0A8", 
+            "Genre": "Familjefilm",
+            "year": 2022,
+            "Length": 99,
+            "ageLimit": 7,
+            "description": "Håkan Bråkan passas av världens - enligt honom - tråkigaste barnvakt Amanda och han måste rymma därifrån för att vinna årets viktigaste dataspelstävling! Det är starten på en serie missförstånd där Håkan hamnar på kollisionskurs med en härjande inbrottsliga. För att besegra tjuvarna måste han använda sina kunskaper från dataspelet in i den riktiga världen. Lyckas han så får han inte bara lugn och ro till att spela – han kan också rädda hela grannskapet och sin framtid.",
+            "actors": [
+                "Silas Strand","Sissela Benn","Fredrik Hallgren","Yussra El Abdouni","Christoffer Nordenrot"
+            ],
+            "director": "Ted Kjellsson",
+            "language": "Svenska",
+            "rating": 7
+        },
+        {
+            "title": "Black Panther: Wakanda Forever",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/fc58bb76012a456a965321c3790f5806.jpg?width=240&version=CEB2D31720E7E01D30F5259B9B2E598D&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/650a3b34e77343ac8f335982958746fb.jpg?width=1920&version=DA0AC942D19BE12C7AAC34F01DD5159B", 
+            "Genre": "Action",
+            "year": 2022,
+            "Length": 161,
+            "ageLimit": 11,
+            "description": "Queen Ramonda, Shuri, MBaku, Okoye och deras specialstyrka med kvinnliga krigare, gör allt för att skydda sin nation från angripande världsmakter efter Kung TChallas död. Wakandas invånare försöker gå vidare och tar hjälp av War Dog Nakia och Everett Ross, för att hitta en ny väg för kungariket Wakanda. Vi får också möta Namor, kungen av en dold undervattensnation.",
+            "actors": [
+                "Lupita Nyong'o","Angela Bassett","Letitia Wright","Danai Gurira","Tenoch Huerta"
+            ],
+            "director": "Ryan Coogler",
+            "language": "Engelska",
+            "rating": 7
+        },
+        {
+            "title": "Black Adam",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/87edee22bf184c03b1861c823e5d3d03.jpg?width=240&version=A9EC7493F3D797D8035117577146CEBC&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/afc018b9426c4517bbc7cd631db1212f.jpg?width=1920&version=94C238877A7FCAF0FDD8985105056EBF", 
+            "Genre": "Action",
+            "year": 2022,
+            "Length": 124,
+            "ageLimit": 11,
+            "description": "Nära 5000 år efter att han tilldelats de forntida gudarnas allsmäktiga krafter - och fängslats lika snabbt - blir Black Adam befriad, redo att släppa lös sin egen form av rättvisa i den moderna världen.",
+            "actors": [
+                "Dwayne Johnson","Sarah Shahi","Pierce Brosnan","Noah Centineo","Aldis Hodge"
+            ],
+            "director": "Jaume Collet-Serra",
+            "language": "Engelska",
+            "rating": 6.5
+        },
+        {
+            "title": "En sång för min dotter",
+            "posterImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/4789ac121cd94f49a61f1037127b50a6.jpg?width=240&version=3C02CFA10B2E40B7C8BAC12939439F88&format=webp",
+            "movieSceneImageUrl": "https://catalog.cinema-api.com/cf/images/ncg-images/5009948137d64a0cb014f52b4c0182ed.jpg?width=1920&version=9D4D64B1DCAB751FF8C42BF201F7B3B8", 
+            "Genre": "Drama",
+            "year": 2023,
+            "Length": 104,
+            "ageLimit": 7,
+            "description": "Amaia har precis blivit mamma och inser snabbt att hon inte vet hur man är det. När hennes partner försvinner iväg på jobb i flera veckor bestämmer hon sig för att åka till sina föräldrars hus, som ligger i en mysig kuststad i Baskien. Hon vill dela ansvaret av barnet med sina föräldrar men inser att, trots att hon själv är mamma, är hon också en dotter.",
+            "actors": [
+                "Laia Costa","Susi Sánchez","Ramón Barea","Mikel Bustamante"
+            ],
+            "director": "Alauda Ruiz de Azúa",
+            "language": "Spanska",
+            "rating": 7.5
+        },
     ]
 }
