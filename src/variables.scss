@@ -14,3 +14,10 @@ $screen-breakpoint: 750px;
   filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
     brightness(105%) contrast(92%);
 }
+
+@mixin boxStyling {
+  background-color: $blue-color;
+  box-shadow: 0 0.2em 0.3em black;
+  color: $text-color;
+  font-family: $font-family;
+}
