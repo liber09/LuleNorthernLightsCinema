@@ -1,15 +1,54 @@
 .secNav {
     margin: 17px 10px;
-    @include boxStyling;
+
+    @media (min-width: $screen-breakpoint) {
+        background-color: $blue-color;
+        box-shadow: 0 0.2em 0.3em black;
+        border-radius: 0.5em 0.5em 0.5em 0.5em;
+    }
 }
 
 .secNav menu {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: auto;
+    
 }
 
 .secNav-menu-item {
+    cursor: pointer;
+    background-color: $blue-color;
+    box-shadow: 0 0.2em 0.3em black;
+    color: $text-color;
+    font-family: $font-family;
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 7px;
+    padding: 20px;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
 
+    @media (min-width: $screen-breakpoint) {
+        background-color: transparent;
+        box-shadow: none;
+        width: auto;
+        margin: 0;
+        padding: 20px 40px;
+        font-size: 17px;
+    }
+    
 }
 
 
-//
+// <nav class="secNav">
+// <menu class="secNav-menu">
+//   <li class="secNav-menu-item">Filmer</li>
+//   <li class="secNav-menu-item">Salonger</li>
+//   <li class="secNav-menu-item">Om oss</li>
+//   <li class="secNav-menu-item">Bistro</li>
+// </menu>
+// </nav>
