@@ -3,7 +3,7 @@ let movies;
 
 let div = document.querySelector(".picture-container");
 let li;
-let movieTitle = document.querySelector(".title");
+let hej = document.querySelector(".title");
 
 async function displayCards() {
   let res = await fetch("src/movies.json");
@@ -21,10 +21,7 @@ async function displayCards() {
 
     //display info when click
     img.addEventListener("click", function () {
-      for (i = 0; i < li4; i++) {
-        hej.innerText = JSON.stringify(movieAll.genre);
-        hej.innerText = JSON.stringify(movieAll.genre);
-      }
+      hej.innerText = JSON.stringify(movieAll.genre);
     });
   });
 }
