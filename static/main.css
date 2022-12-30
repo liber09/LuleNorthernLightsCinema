@@ -82,6 +82,7 @@ html {
   }
 }
 
+
 footer {
   background-color: #112d4e;
   border-radius: 1em 1em 0em 0em;
@@ -186,4 +187,5 @@ footer .footer-sections #cinema-collab {
   .content {
     width: 1170px;
   }
+
 }
