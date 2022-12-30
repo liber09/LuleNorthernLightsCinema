@@ -18,11 +18,6 @@ async function displayCards() {
     img.classList.add("cards");
     div.append(img);
     console.log(img);
-
-    //display info when click
-    img.addEventListener("click", function () {
-      hej.innerText = JSON.stringify(movieAll.genre);
-    });
   });
 }
 displayCards();
