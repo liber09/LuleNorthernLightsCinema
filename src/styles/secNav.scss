@@ -1,48 +1,62 @@
 .secNav {
-    margin: 17px 10px;
+  margin: 17px 10px;
 
-    @media (min-width: $screen-breakpoint) {
-        background-color: $blue-color;
-        box-shadow: 0 0.2em 0.3em black;
-        border-radius: 0.5em 0.5em 0.5em 0.5em;
-    }
+  @media (min-width: $screen-breakpoint) {
+    background-color: $blue-color;
+    box-shadow: 0 0.2em 0.3em black;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+  }
 }
 
 .secNav menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 1200px;
-    margin: auto;
-    
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1000px;
 }
 
 .secNav-menu-item {
-    cursor: pointer;
-    background-color: $blue-color;
-    box-shadow: 0 0.2em 0.3em black;
-    color: $text-color;
-    font-family: $font-family;
-    text-align: center;
-    list-style: none;
-    font-weight: bold;
-    font-size: 20px;
-    width: 100%;
-    margin-top: 7px;
-    padding: 20px;
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+  list-style: none;
+  width: 100%;
+  background-color: $blue-color;
+  text-align: center;
+  margin-top: 7px;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  box-shadow: 0 0.2em 0.3em black;
 
-    @media (min-width: $screen-breakpoint) {
-        background-color: transparent;
-        box-shadow: none;
-        width: auto;
-        margin: 0;
-        padding: 20px 40px;
-        font-size: 17px;
-    }
+  @media (min-width: $screen-breakpoint) {
+    width: auto;
+    box-shadow: none;
     
+  }
 }
 
+.secNav-menu-item button {
+  cursor: pointer;
+  border: none;
+  background-color: $blue-color;
+  color: $text-color;
+  font-family: $font-family;
+  text-align: center;
+  list-style: none;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+
+  background-color: transparent;
+  box-shadow: none;
+  margin: 0;
+  padding: 20px 40px;
+
+  &:hover {
+    transform: scale(1.05);
+    color: whitesmoke;
+  }
+
+  @media (min-width: $screen-breakpoint) {}
+}
 
 // <nav class="secNav">
 // <menu class="secNav-menu">
