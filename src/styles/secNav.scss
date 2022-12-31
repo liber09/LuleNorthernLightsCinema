@@ -48,21 +48,26 @@
   background-color: transparent;
   box-shadow: none;
   margin: 0;
-  padding: 20px 40px;
+  padding: 20px 29px;
 
-  &:hover {
-    transform: scale(1.05);
+  &:hover, &:focus {
+    transform: scale(1.2);
     color: whitesmoke;
   }
-
-  @media (min-width: $screen-breakpoint) {}
 }
 
-// <nav class="secNav">
-// <menu class="secNav-menu">
-//   <li class="secNav-menu-item">Filmer</li>
-//   <li class="secNav-menu-item">Salonger</li>
-//   <li class="secNav-menu-item">Om oss</li>
-//   <li class="secNav-menu-item">Bistro</li>
-// </menu>
-// </nav>
+.secNav-dropdown {
+    display: none;
+    position: absolute;
+    background-color: $blue-color;
+    width: 50px;
+    box-shadow: 0 0.2em 0.3em black;
+    z-index: 1;
+}
+
+.secNav-dropdown a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
