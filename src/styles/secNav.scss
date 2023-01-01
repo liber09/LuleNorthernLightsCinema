@@ -19,7 +19,6 @@
 .secNav-menu-item {
   list-style: none;
   width: 100%;
-  background-color: $blue-color;
   text-align: center;
   margin-top: 7px;
   border-radius: 0.5em 0.5em 0.5em 0.5em;
@@ -28,7 +27,7 @@
   @media (min-width: $screen-breakpoint) {
     width: auto;
     box-shadow: none;
-    
+    background-color: $blue-color;
   }
 }
 
@@ -50,33 +49,49 @@
   margin: 0;
   padding: 20px 27px;
 
-  &:hover, &:focus {
-    transform: scale(1.2);
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
     color: whitesmoke;
+  }
+
+  @media (max-width: $screen-breakpoint) {
+    background-color: $blue-color;
+    &:hover,
+    &:focus {
+      background-color: #0a192b;
+      transform: scale(1);
+    }
   }
 }
 
 .secNav-dropdown {
-    display: none;
+  display: none;
+  position: relative;
+  box-shadow: 0 0.2em 0.3em black;
+  z-index: 1;
+
+  @media (min-width: $screen-breakpoint) {
     position: absolute;
-    background-color: $blue-color;
-    width: 50px;
-    box-shadow: 0 0.2em 0.3em black;
-    z-index: 1;
+    background-color: #000000ec;
+  }
 }
 
 .secNav-dropdown a {
+  background-color: $blue-color;
+  margin-top: 1px;
   cursor: pointer;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  width: 100%;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .secNav-dropdown a:hover {
-    background-color: aqua;
+  background-color: #2361a8;
 }
 
 .show {
-    display: block;
+  display: block;
 }
