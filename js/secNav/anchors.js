@@ -1,51 +1,42 @@
-const anchors = [];
+export const repAncs = [];
+export const salAncs = [];
+export const specAncs = [];
+export const liveAncs = [];
+export const barBistAncs = [];
 
 //First btn
-const reportoire = [];
-const helaBioProgrammet = "";
-const kommandeBioPremiarer = "";
-const matineFilm = "";
-
-reportoire.push(helaBioProgrammet, kommandeBioPremiarer, matineFilm)
+const rep1 = ["Hela bioprogrammet", "hrefLink"];
+const rep2 = ["Kommande premiärer", "hrefLink"]
+const rep3 = ["Matinéfilm för 100kr", "hrefLink"];
+repAncs.push(rep1, rep2, rep3)
 
 //Second btn
-const serveradeSalonger = [];
-const alcazar = "";
-const deco = "";
-const camera = "";
-
-serveradeSalonger.push(alcazar, deco, camera);
+const salon1 = ["Alcazar", "hrefLink"];
+const salon2 = ["Deco", "hrefLink"];
+const salon3 = ["Camera", "hrefLink"];
+salAncs.push(salon1, salon2, salon3);
 
 //Third btn
-const specialVisningar = [];
-const klassiker = "";
-const singAndPartyAlong = "";
-const denDaligaFilmklubben = "";
-const frukostbio = "";
-const cinemateket = "";
-const galapremierer = "";
-const hollywoodOmHollywood = "";
-const dokumentarer = "";
+const spec1 = ["Klassiker", "hrefLink"];
+const spec2 = ["Sing Along & Party Along", "hrefLink"];
+const spec3 = ["Den Dåliga FilmKlubben", "hrefLink"];
+const spec4 = ["Frukostbio", "hrefLink"];
+const spec5 = ["Cinemateket", "hrefLink"];
+const spec6 = ["Galapremiärer", "hrefLink"];
+const spec7 = ["Hollywood om Hollywood", "hrefLink"];
+const spec8 = ["Dokumentärer", "hrefLink"];
+specAncs.push(spec1, spec2, spec3, spec4, spec5,
+spec6, spec7, spec8);
 
-specialVisningar.push(klassiker, singAndPartyAlong, denDaligaFilmklubben, frukostbio, cinemateket,
-    galapremierer, hollywoodOmHollywood, dokumentarer);
-    
-    //Fourth btn
-    const livePaBio = [];
-const helaProgrammet = "";
-const opera = "";
-const teater = "";
-const konsert = "";
-
-livePaBio.push(helaBioProgrammet, opera, teater, konsert);
+//Fourth btn
+const live1 = ["Hela programmet", "hrefLink"];
+const live2 = ["Opera", "hrefLink"];
+const live3 = ["Teater", "hrefLink"];
+const live4 = ["Konsert", "hrefLink"];
+liveAncs.push(live1, live2, live3, live4);
 
 //Fifth btn
-const barAndBistro = [];
-const meny = "";
-const premierFredag = "";
-const filmquiz = "";
-barAndBistro.push(meny, premierFredag, filmquiz);
-
-//final push
-anchors.push (reportoire, serveradeSalonger, specialVisningar, livePaBio, barAndBistro);
-export default anchors;
+const barBist1 = ["Meny", "hrefLink"];
+const barBist2 = ["Premiärfredag", "hrefLink"];
+const barBist3 = ["Filmquiz", "hrefLink"];
+barBistAncs.push(barBist1, barBist2, barBist3);
