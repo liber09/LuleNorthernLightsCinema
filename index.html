@@ -38,18 +38,31 @@
 
     <nav class="secNav">
       <menu class="secNav-menu">
+
         <li class="secNav-menu-item">
-          <button onclick="myFunction()" class="dropBtn" id="myDropdown">Repertoar</button>
-          <div class="secNav-dropdown">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
+          <button class="dropBtn" id="rep">Repertoar</button>
+          <div class="secNav-dropdown" id="rep-dropdown"></div>
         </li>
-        <li class="secNav-menu-item"><button class="dropBtn" id="salons">Salonger</button></li>
-        <li class="secNav-menu-item"><button class="dropBtn" id="specials">Specialvisningar</button></li>
-        <li class="secNav-menu-item"><button class="dropBtn" id="liveOnCinema">Live på bio</button></li>
-        <li class="secNav-menu-item"><button class="dropBtn" id="barAndBistro">Bar & Bistro</button></li>
+
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="sal">Salonger</button>
+          <div class="secNav-dropdown" id="sal-dropdown"></div>
+        </li>
+
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="spec">Specialvisningar</button>
+          <div class="secNav-dropdown" id="spec-dropdown"></div>
+        </li>
+
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="live">Live på bio</button>
+          <div class="secNav-dropdown" id="live-dropdown"></div>
+        </li>
+
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="barBist">Bar & Bistro</button>
+          <div class="secNav-dropdown" id="barBist-dropdown"></div>
+        </li> 
       </menu>
     </nav>
 
@@ -163,25 +176,5 @@
 
     <script src="./js/script.js"></script>
     <script src="./js/secNav/secNav.js" type="module"></script>
-    <script>
-      function myFunction() {
-        document.querySelector(".secNav-dropdown").classList.toggle("show");
-      }
-
-      window.onclick = function(event) {
-        console.log("HEJ")
-        if (!event.target.matches('.dropBtn')) {
-          document.querySelector(".secNav-dropdown").classList.remove("show");
-          // const dropdowns = document.getElementsByClassName("secNav-dropdown");
-          // let i;
-          // for (i = 0; i < dropdowns.length; i++) {
-          //   let openDropdown = dropdowns[i];
-          //   if (openDropdown.classList.contains('show')) {
-          //     openDropdown.classList.remove('show');
-          //   }
-          // }
-        }
-      }
-    </script>
   </body>
 </html>
