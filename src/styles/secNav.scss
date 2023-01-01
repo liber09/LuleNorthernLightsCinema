@@ -49,17 +49,15 @@
   margin: 0;
   padding: 20px 27px;
 
-  &:hover,
-  &:focus {
+  &:hover {
     transform: scale(1.1);
     color: whitesmoke;
   }
 
   @media (max-width: $screen-breakpoint) {
-    background-color: $blue-color;
-    &:hover,
-    &:focus {
-      background-color: #0a192b;
+    background-color: #091829;
+    &:hover {
+      background-color: #08121f;
       transform: scale(1);
     }
   }
