@@ -39,13 +39,17 @@
     <nav class="secNav">
       <menu class="secNav-menu">
         <li class="secNav-menu-item">
-          <button onclick="myFunction()" class="dropBtn">Repertoar</button>
-          <div class="secNav-dropdown"></div>
+          <button onclick="myFunction()" class="dropBtn" id="myDropdown">Repertoar</button>
+          <div class="secNav-dropdown">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
-        <li class="secNav-menu-item"><button>Salonger</button></li>
-        <li class="secNav-menu-item"><button>Specialvisningar</button></li>
-        <li class="secNav-menu-item"><button>Live på bio</button></li>
-        <li class="secNav-menu-item"><button>Bar & Bistro</button></li>
+        <li class="secNav-menu-item"><button class="dropBtn" id="salons">Salonger</button></li>
+        <li class="secNav-menu-item"><button class="dropBtn" id="specials">Specialvisningar</button></li>
+        <li class="secNav-menu-item"><button class="dropBtn" id="liveOnCinema">Live på bio</button></li>
+        <li class="secNav-menu-item"><button class="dropBtn" id="barAndBistro">Bar & Bistro</button></li>
       </menu>
     </nav>
 
@@ -161,7 +165,22 @@
     <script src="./js/secNav/secNav.js" type="module"></script>
     <script>
       function myFunction() {
-        document.getElementById;
+        document.querySelector(".secNav-dropdown").classList.toggle("show");
+      }
+
+      window.onclick = function(event) {
+        console.log("HEJ")
+        if (!event.target.matches('.dropBtn')) {
+          document.querySelector(".secNav-dropdown").classList.remove("show");
+          // const dropdowns = document.getElementsByClassName("secNav-dropdown");
+          // let i;
+          // for (i = 0; i < dropdowns.length; i++) {
+          //   let openDropdown = dropdowns[i];
+          //   if (openDropdown.classList.contains('show')) {
+          //     openDropdown.classList.remove('show');
+          //   }
+          // }
+        }
       }
     </script>
   </body>
