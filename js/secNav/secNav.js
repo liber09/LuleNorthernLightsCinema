@@ -1,41 +1,61 @@
-import { repAncs, salAncs, specAncs, liveAncs, barBistAncs } from "./anchors.js"
+import {
+  repAncs,
+  salAncs,
+  specAncs,
+  liveAncs,
+  barBistAncs,
+} from "./anchors.js";
 
-const salons = document.querySelector('#salons');
-const specials = document.querySelector('#specials');
-const liveOnCinema = document.querySelector('#liveOnCinema');
-const barAndBistro = document.querySelector('#barAndBistro');
+const rep = document.querySelector("#rep");
+const repDrop = document.querySelector("#rep-dropdown")
+appendAnchors(rep, repDrop, repAncs);
 
-salons.appendChild(appendDropdown(salAncs));
+const sal = document.querySelector("#sal");
+const salDrop = document.querySelector("#sal-dropdown");
+appendAnchors(sal, salDrop, salAncs);
 
-function appendDropdown(arr) {
-    const dropDown = document.createElement('div');
-    dropDown.className = "secNav-dropdown";
+const spec = document.querySelector("#spec");
+const specDrop = document.querySelector("#spec-dropdown");
+appendAnchors(spec, specDrop, specAncs);
 
-    for (let i = 0; i < arr.length; i++) {
-        const a = document.createElement('a');
-        a.innerHTML = arr[i][0];
-        a.setAttribute('href', arr[i][1]);
-        dropDown.append(a);
+const live = document.querySelector('#live');
+const liveDrop = document.querySelector("#live-dropdown")
+appendAnchors(live, liveDrop, liveAncs);
+
+const barBist = document.querySelector('#barBist');
+const barBistDrop = document.querySelector("#barBist-dropdown");
+appendAnchors(barBist, barBistDrop, barBistAncs);
+
+function appendAnchors(btn, dropDown, anchors) {
+  for (let i = 0; i < anchors.length; i++) {
+    const a = document.createElement("a");
+    a.innerHTML = anchors[i][0];
+
+    if (!anchors [i][1] == "hrefLink" || anchors [i][1] == ""){
+        a.setAttribute("href", anchors[i][1]);
     }
-    return dropDown;
+    dropDown.append(a);
+  }
+
+  btn.addEventListener("click", () => {
+    dropDown.classList.toggle("show");
+  });
 }
 
-
-
-
-// <nav class="secNav">
-// <menu class="secNav-menu">
-// <li class="secNav-menu-item">
-//   <button onclick="myFunction()" class="dropBtn" id="myDropdown">Repertoar</button>
-//   <div class="secNav-dropdown">
-//     <a href="#">Link 1</a>
-//     <a href="#">Link 2</a>
-//     <a href="#">Link 3</a>
-//   </div>
-// </li>
-// <li class="secNav-menu-item"><button class="dropBtn" id="salons">Salonger</button></li>
-// <li class="secNav-menu-item"><button class="dropBtn" id="specials">Specialvisningar</button></li>
-// <li class="secNav-menu-item"><button class="dropBtn" id="liveOnCinema">Live på bio</button></li>
-// <li class="secNav-menu-item"><button class="dropBtn" id="barAndBistro">Bar & Bistro</button></li>
-// </menu>
-// </nav>
+window.onclick = function (event) {
+    if (!event.target.matches("#rep")) {
+      document.querySelector("#rep-dropdown").classList.remove("show");
+    }
+  if (!event.target.matches("#sal")) {
+    document.querySelector("#sal-dropdown").classList.remove("show");
+  }
+  if (!event.target.matches("#spec")) {
+    document.querySelector("#spec-dropdown").classList.remove("show");
+  }
+  if (!event.target.matches("#live")) {
+    document.querySelector("#live-dropdown").classList.remove("show");
+  }
+  if (!event.target.matches("#barBist")) {
+    document.querySelector("#barBist-dropdown").classList.remove("show");
+  }
+};
