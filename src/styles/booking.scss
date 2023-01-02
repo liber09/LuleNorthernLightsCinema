@@ -1,0 +1,22 @@
+.screen{
+    width: 65%;
+    background-color: crimson;
+    font-size: 3em;
+    }
+
+.seat{
+    background-color: $available-seat-color;
+    width: 20px;
+    height: 20px;
+
+}
+.seatPlanCanvas {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(6, auto);
+    gap: 40px;
+    margin: 50px 0;
+    @media screen and (max-width: 415px) {
+      gap: 20px;
+    }
+}
