@@ -19,9 +19,12 @@ async function displayCards() {
     div.append(img);
 
     //elements in modal
-
     img.addEventListener("click", function () {
       document.querySelector(".modal-container").classList.add("show");
+
+      let modalBlock = document.createElement("div");
+      modalBlock.classList.add("hej");
+      modal.append(modalBlock);
 
       modalPoster = document.createElement("img");
       modalPoster.setAttribute("src", movieAll.posterImageUrl);
@@ -49,7 +52,7 @@ async function displayCards() {
       textContainer9.classList.add("text-container");
       let textContainer10 = document.createElement("div");
       textContainer10.classList.add("text-container");
-      modal.append(
+      modalBlock.append(
         modalPoster,
         modalScenePoster,
         textContainer1,
@@ -101,13 +104,13 @@ async function displayCards() {
       textContainer8.append(director);
       textContainer9.append(language);
       textContainer10.append(rating);
-      modal.append(button);
-    });
-
-    window.addEventListener("click", function (ev) {
-      if (ev.target === document.querySelector(".modal-container")) {
-        document.querySelector(".modal-container").classList.remove("show");
-      }
+      modalBlock.append(button);
+      window.addEventListener("click", function (ev) {
+        if (ev.target === document.querySelector(".modal-container")) {
+          modalBlock.remove();
+          document.querySelector(".modal-container").classList.remove("show");
+        }
+      });
     });
   });
 }
