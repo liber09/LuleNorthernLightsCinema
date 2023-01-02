@@ -1,17 +1,17 @@
 let seatPlan = document.querySelector("#seatPlanCanvas");
+let seats;
+let li;
 
 async function showSeats() {
 
-  for (let i = 0; i < 12; i++) {
-    for (let j = 0; j < 6; j++) {
-      let seat = document.createElement("div");
-      seat.classList.add("seat");
-      seatPlan.appendChild(seat);
-      console.log(seat.top);
-      console.log(seat.right);
-      console.log(seat.bottom);
-      console.log(seat.right);
-    }
-  }
+  let res = await fetch("../src/seats.json");
+  let data = await res.json();
+
+  li = data.seats;
+  li.forEach(function () {
+  let seat = document.createElement("div");
+    seat.classList.add("seat");
+    seatPlan.appendChild(seat);
+  })
 }
   showSeats();
