@@ -1,0 +1,21 @@
+.picture-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(5, auto);
+  gap: 70px;
+  margin: 50px 0;
+  @media screen and (max-width: 415px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .cards {
+    width: 14.1em;
+    margin: 0 auto;
+
+    @media screen and (max-width: $screen-breakpoint) {
+      max-width: 7em;
+      height: auto;
+    }
+  }
+}

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="static/main.css" />
     <title>LuleNorthernLightsCinema</title>
   </head>
+
   <body>
     <header class="header">
       <div class="top-header">
@@ -37,14 +38,36 @@
       </nav>
     </header>
 
-    <nav>
-      <ul>
-        <li>Filmer</li>
-        <li>Salonger</li>
-        <li>Om oss</li>
-        <li>Bistro</li>
-      </ul>
+    <nav class="secNav">
+      <menu class="secNav-menu">
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="rep">Repertoar</button>
+          <div class="secNav-dropdown" id="rep-dropdown"></div>
+        </li>
+
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="sal">Salonger</button>
+          <div class="secNav-dropdown" id="sal-dropdown"></div>
+        </li>
+
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="spec">Specialvisningar</button>
+          <div class="secNav-dropdown" id="spec-dropdown"></div>
+        </li>
+
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="live">Live på bio</button>
+          <div class="secNav-dropdown" id="live-dropdown"></div>
+        </li>
+
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="barBist">Bar & Bistro</button>
+          <div class="secNav-dropdown" id="barBist-dropdown"></div>
+        </li>
+      </menu>
     </nav>
+
+    <div class="picture-container"></div>
 
     <main>
       <h2>Filmerna här</h2>
@@ -153,7 +176,9 @@
         />
       </div>
     </footer>
-
+    <script type="text/javascript" src="/src/movies.json"></script>
+    ;
     <script src="./js/script.js"></script>
+    <script src="./js/secNav/secNav.js" type="module"></script>
   </body>
 </html>

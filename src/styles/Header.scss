@@ -62,6 +62,12 @@
         gap: 2.5em;
       }
 
+      section {
+        .social-media-links {
+          @include iconColor;
+        }
+      }
+
       a {
         text-decoration: none;
         color: $text-color;
