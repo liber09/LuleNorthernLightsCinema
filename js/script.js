@@ -14,7 +14,7 @@ async function displayCards() {
   li.forEach(function (movieAll) {
     let img = document.createElement("img");
     img.setAttribute("src", movieAll.posterImageUrl);
-    img.setAttribute("alt", "Hej");
+    img.setAttribute("alt", "poster of the movie");
     img.classList.add("cards");
     div.append(img);
 
@@ -23,7 +23,6 @@ async function displayCards() {
       document.querySelector(".modal-container").classList.add("show");
 
       let modalBlock = document.createElement("div");
-      modalBlock.classList.add("hej");
       modal.append(modalBlock);
 
       modalPoster = document.createElement("img");
