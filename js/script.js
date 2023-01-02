@@ -90,9 +90,6 @@ async function displayCards() {
       button.innerText = "Boka";
       button.setAttribute("href", "/htmlbooking.html"); // Tror det ska vara rätt html fil här.
       button.classList.add("book-movie");
-      let closeModal = document.createElement("button");
-      closeModal.innerText = "Stäng";
-      closeModal.classList.add("close");
 
       textContainer1.append(title);
       textContainer2.append(genre);
@@ -104,7 +101,7 @@ async function displayCards() {
       textContainer8.append(director);
       textContainer9.append(language);
       textContainer10.append(rating);
-      modal.append(button, closeModal);
+      modal.append(button);
     });
 
     window.addEventListener("click", function (ev) {
