@@ -2,9 +2,9 @@ window.onload = function(){
     const canvas = document.querySelector('#seatPlanCanvas');
     if (canvas.getContext) {
     var context = canvas.getContext('2d');
+    for (let i = 0; i < 12; i++) {
+      context.fillRect(25+(i*60),100,20,20)
+    }
     
-    context.fillRect(20,20,100,100);
-    context.clearRect(40,40,60,60);
-    context.strokeRect(45,45,50,50);
   }
 }
