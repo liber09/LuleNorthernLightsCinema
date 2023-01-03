@@ -41,12 +41,13 @@ html {
 }
 .header .top-header #hamburger-icon {
   right: 5px;
-  top: 10px;
+  top: 3px;
   position: absolute;
   width: 3em;
   margin: 0em 1em 0 0;
   color: #dbe2ef;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
+    brightness(105%) contrast(92%);
 }
 @media screen and (min-width: 750px) {
   .header .top-header #hamburger-icon {
@@ -59,31 +60,38 @@ html {
   margin-top: 30px;
   font-size: 20px;
 }
-.header nav ul {
+.header nav .main-nav {
+  display: none;
+}
+.header nav .main-nav.show {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  gap: 20px;
   list-style: none;
   text-decoration: none;
   font-size: 0.9em;
   margin-bottom: 1em;
 }
-.header nav ul section .social-media-links {
-  color: #dbe2ef;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+@media screen and (min-width: 750px) {
+  .header nav .main-nav {
+    display: flex;
+    list-style: none;
+    gap: 2.5em;
+  }
 }
-.header nav ul a {
+.header nav .main-nav section .social-media-links {
+  color: #dbe2ef;
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
+    brightness(105%) contrast(92%);
+}
+.header nav .main-nav a {
   text-decoration: none;
   color: #dbe2ef;
   transition: 0.2s;
 }
-.header nav ul a:hover {
+.header nav .main-nav a:hover {
   transform: scale(1.05);
   color: whitesmoke;
-}
-@media screen and (max-width: 750px) {
-  .header nav {
-    display: none;
-  }
 }
 
 footer {
@@ -116,7 +124,8 @@ footer .footer-sections p {
 }
 footer .footer-sections .social-media-links {
   color: #dbe2ef;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
+    brightness(105%) contrast(92%);
   padding: 3px;
 }
 footer .footer-sections #municipality-logo {
@@ -374,6 +383,31 @@ main section img {
   .picture-container .cards {
     max-width: 7em;
     height: auto;
+  }
+}
+
+.screen {
+  width: 65%;
+  background-color: crimson;
+  font-size: 3em;
+}
+
+.seat {
+  background-color: rgb(167, 216, 233);
+  width: 20px;
+  height: 20px;
+}
+
+.seatPlanCanvas {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(6, auto);
+  gap: 40px;
+  margin: 50px 0;
+}
+@media screen and (max-width: 415px) {
+  .seatPlanCanvas {
+    gap: 20px;
   }
 }
 
