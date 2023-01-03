@@ -401,3 +401,40 @@ main section img {
     gap: 20px;
   }
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+}
+main .about-us {
+  width: 75%;
+}
+main .about-main-title {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 0.3em;
+  padding-bottom: 0.8em;
+  padding-top: 1em;
+}
+main .our-history {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+main .history-paragraph {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  padding-bottom: 1em;
+}
+main .our-cinema {
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+main .our-cinema-paragraph {
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
+}

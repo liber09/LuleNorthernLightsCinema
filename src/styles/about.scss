@@ -2,31 +2,35 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1em;
     .about-us {
-        width: 80%;
-        background-color: $blue-color;
+        width: 75%;
     }
     .about-main-title {
         width: 100%;
         text-align: center;
         font-size: 4em;
         letter-spacing: 0.3em;
-        padding-bottom: 0.1em;
+        padding-bottom: 0.8em;
+        padding-top: 1em;
     }
     .our-history {
         text-align: center;
-        font-size: 1.5em;
+        font-size: 2em;
+        padding-bottom: 1em;
     }
     .history-paragraph {
-        font-size: medium;
+        font-size: 1.2em;
         margin-bottom: 0.5em;
+        padding-bottom: 1em;
     }
     .our-cinema {
+        padding-bottom: 1em;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .our-cinema-paragraph {
-        font-size: medium;
-        margin-bottom: 0.5em;
+        font-size: 1.2em;
+        margin-bottom: 0.8em;
     }
 }
