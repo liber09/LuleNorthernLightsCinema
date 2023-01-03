@@ -1,5 +1,7 @@
 #ul {
 
+    font-size: 0.9rem;
+
     display: flex-column;
     width: 80%;
     background-color: #fff;
@@ -9,16 +11,18 @@
     li {
         display: flex;
         max-width: 80%;
+        margin: 0.5em 0.5em;
         
         img {
-            max-width: 15%;
+            max-width: 15vw;
+            
         }
-
+        
         div {
-
             margin-left: 2em;
 
             h2 {
+                font-size: 1.5em;
                 margin-bottom: 1em;
             }
     
@@ -30,7 +34,21 @@
                 border: 1px solid gray;
                 align-self: flex-end;
             }
-
         }
     }
+}
+
+@media (max-width: 550px) {
+    
+   #ul {
+    font-size: 0.7em;
+
+    img {
+        object-fit: scale-down;
+    }
+   }
+    
+    
+    
+
 }
