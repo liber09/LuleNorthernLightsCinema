@@ -7,7 +7,7 @@ export const barBistAncs = [];
 //First btn
 const rep1 = ["Hela bioprogrammet", "hrefLink"];
 const rep2 = ["Kommande premiärer", "hrefLink"]
-const rep3 = ["Matinéfilm för 100kr", "hrefLink"];
+const rep3 = ["Matinéfilm för 100kr", "matiné.html"];
 repAncs.push(rep1, rep2, rep3)
 
 //Second btn
