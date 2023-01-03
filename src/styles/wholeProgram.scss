@@ -1,3 +1,36 @@
 #ul {
-    background-color: red;
+
+    display: flex-column;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 0.5em;
+
+
+    li {
+        display: flex;
+        max-width: 80%;
+        
+        img {
+            max-width: 15%;
+        }
+
+        div {
+
+            margin-left: 2em;
+
+            h2 {
+                margin-bottom: 1em;
+            }
+    
+            a {
+                display:flex-row;
+                padding: 0.5em;
+                margin-right: 0.1em;
+                flex-wrap: nowrap;
+                border: 1px solid gray;
+                align-self: flex-end;
+            }
+
+        }
+    }
 }

@@ -9,6 +9,7 @@ async function movieRows() {
     data.movies.forEach(element => { 
         
         const li = document.createElement("li");
+        const div = document.createElement("div");
 
         const img = document.createElement("img");
         img.src = element.posterImageUrl;
@@ -24,9 +25,10 @@ async function movieRows() {
         moreInfo.innerText = "Mer info";
         moreInfo.href = "#";
 
-        li.append(img, title, tickets, moreInfo);
+        div.append(title, tickets, moreInfo); 
+        li.append(img, div);
         
-        ul.appendChild(li);
+        ul.append(li);
         
     });
         
