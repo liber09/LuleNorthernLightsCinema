@@ -1,11 +1,11 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  background-image: url("../static/background.png");
+    background-image: url("../static/background.png");
 }
 
 @import "variables.scss";
@@ -16,4 +16,4 @@ html {
 @import "styles/secNav.scss";
 @import "styles/cards.scss";
 @import "styles/booking.scss";
-
+@import "styles/about.scss";

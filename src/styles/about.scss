@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .about-us {
+        width: 80%;
+        background-color: $blue-color;
+    }
+    .about-main-title {
+        width: 100%;
+        text-align: center;
+        font-size: 4em;
+        letter-spacing: 0.3em;
+        padding-bottom: 0.1em;
+    }
+    .our-history {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .history-paragraph {
+        font-size: medium;
+        margin-bottom: 0.5em;
+    }
+    .our-cinema {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .our-cinema-paragraph {
+        font-size: medium;
+        margin-bottom: 0.5em;
+    }
+}
