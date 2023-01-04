@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="../static/main.css" />
     <title>LuleNorthernLightsCinema</title>
   </head>
+
   <body>
     <header class="header">
       <div class="top-header">
-        <!--  Make a good looking logotype later -->
-        <a href="index.html">
+        <a href="/index.html">
           <img
             class="logotype"
-            src="../static/logga.jpg"
+            src="/static/logo-cinema.png"
             alt="logotype for the cinema"
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
@@ -26,23 +26,55 @@
       </div>
 
       <nav>
-        <ul>
-          <a href="#"><li>Öppetider & Kontakt</li></a>
-          <a href="#"> <li>Om våran biograf</li></a>
-          <a href="ticket-info.html"> <li>Biljettinfo</li></a>
-          <a href="newsletter.html"> <li>Nyheter</li></a>
-          <a href="giftCard.html"><li>Köp presentkort</li></a>
+        <ul class="main-nav">
+          <a href="openingHours.html">
+            <li>Öppetider & Kontakt</li>
+          </a>
+          <a href="about.html">
+            <li>Om våran biograf</li>
+          </a>
+          <a href="ticket-info.html">
+            <li>Biljettinfo</li>
+          </a>
+          <a href="newsletter.html">
+            <li>Nyheter</li>
+          </a>
+          <a href="giftCard.html">
+            <li>Köp presentkort</li>
+          </a>
         </ul>
       </nav>
     </header>
 
-    <nav>
-      <ul>
-        <li>Filmer</li>
-        <li>Salonger</li>
-        <li>Om oss</li>
-        <li>Bistro</li>
-      </ul>
+    <!-- Lägg in href-länkar för secNav i följande .js-fil:
+        js/secNav/anchors.js -->
+    <nav class="secNav">
+        <menu class="secNav-menu">
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="rep">Repertoar</button>
+                <div class="secNav-dropdown" id="rep-dropdown"></div>
+            </li>
+
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="sal">Salonger</button>
+                <div class="secNav-dropdown" id="sal-dropdown"></div>
+            </li>
+
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="spec">Specialvisningar</button>
+                <div class="secNav-dropdown" id="spec-dropdown"></div>
+            </li>
+
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="live">Live på bio</button>
+                <div class="secNav-dropdown" id="live-dropdown"></div>
+            </li>
+
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="barBist">Bar & Bistro</button>
+                <div class="secNav-dropdown" id="barBist-dropdown"></div>
+            </li>
+        </menu>
     </nav>
 
     <main>
@@ -57,7 +89,7 @@
           Du kan antingen betala med ditt betalkort eller presentkort på
           hemsidan, men du kan endast använda ett betalsätt per köp. Köper du
           din biljett via hemsidan får du en bokningsbekräftelse via mejl. Vi
-          har endast direktköp på våra biljetter. 
+          har endast direktköp på våra biljetter.
         </p>
 
         <h3 class="question-title">
@@ -108,7 +140,7 @@
           filmstart, men du kan även enkelt beställa mat och dryck under filmen.
           Alla våra tre salonger är serverade och har en bar som bemannas
           kontinuerligt, vilket betyder att du får avnjuta god mat och dryck
-          tillsammans med din film! 
+          tillsammans med din film!
         </p>
 
         <h2 class="asked-title">ÅTERKÖP OCH BYTEN</h2>
@@ -181,6 +213,6 @@
       </div>
     </footer>
 
-    <script src="./js/script.js"></script>
+    <script src="../js/secNav/secNav.js" type="module"></script>
   </body>
 </html>
