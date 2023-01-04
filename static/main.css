@@ -17,28 +17,33 @@ html {
   color: #dbe2ef;
   min-height: 150px;
 }
+
 .header .top-header {
   padding-top: 40px;
   display: flex;
   justify-content: center;
   gap: 90px;
 }
+
 .header .top-header .logotype {
   width: 5em;
   height: auto;
   border-radius: 60px;
 }
+
 .header .top-header h1 {
   font-size: xx-large;
   font-family: "Inter", sans-serif;
   display: flex;
   margin-left: -80px;
 }
+
 @media screen and (min-width: 750px) {
   .header .top-header h1 {
     font-size: 60px;
   }
 }
+
 .header .top-header #hamburger-icon {
   right: 5px;
   top: 3px;
@@ -46,22 +51,27 @@ html {
   width: 3em;
   margin: 0em 1em 0 0;
   color: #dbe2ef;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
+    brightness(105%) contrast(92%);
 }
+
 @media screen and (min-width: 750px) {
   .header .top-header #hamburger-icon {
     display: none;
   }
 }
+
 .header nav {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   font-size: 20px;
 }
+
 .header nav .main-nav {
   display: none;
 }
+
 .header nav .main-nav.show {
   display: flex;
   flex-direction: column;
@@ -71,6 +81,7 @@ html {
   font-size: 0.9em;
   margin-bottom: 1em;
 }
+
 @media screen and (min-width: 750px) {
   .header nav .main-nav {
     display: flex;
@@ -78,15 +89,19 @@ html {
     gap: 2.5em;
   }
 }
+
 .header nav .main-nav section .social-media-links {
   color: #dbe2ef;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
+    brightness(105%) contrast(92%);
 }
+
 .header nav .main-nav a {
   text-decoration: none;
   color: #dbe2ef;
   transition: 0.2s;
 }
+
 .header nav .main-nav a:hover {
   transform: scale(1.05);
   color: whitesmoke;
@@ -101,6 +116,7 @@ footer {
   gap: 30px;
   font-family: "Inter", sans-serif;
 }
+
 @media screen and (min-width: 750px) {
   footer {
     display: flex;
@@ -108,31 +124,39 @@ footer {
     align-items: center;
   }
 }
+
 footer .footer-sections {
   padding: 10px 0 10px 20px;
   margin: 0.5em;
 }
+
 footer .footer-sections h3 {
   margin-bottom: 0.3em;
   font-size: 16px;
   margin-top: 10px;
 }
+
 footer .footer-sections p {
   font-size: 12px;
 }
+
 footer .footer-sections .social-media-links {
   color: #dbe2ef;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
+    brightness(105%) contrast(92%);
   padding: 3px;
 }
+
 footer .footer-sections #municipality-logo {
   width: 100px;
   height: auto;
 }
+
 footer .footer-sections #cinema-collab {
   width: 100px;
   height: auto;
 }
+
 @media screen and (min-width: 750px) {
   footer .footer-sections h3 {
     font-size: 22px;
@@ -159,10 +183,12 @@ footer .footer-sections #cinema-collab {
   color: whitesmoke;
   text-align: center;
 }
+
 .pageHeader h2 {
   font-size: 40px;
   padding: 1em 1em 1em 0;
 }
+
 @media screen and (min-width: 750px) {
   .pageHeader {
     width: 1170px;
@@ -181,17 +207,21 @@ footer .footer-sections #cinema-collab {
   color: whitesmoke;
   text-align: center;
 }
+
 .content p {
   padding: 1em 1em 1em 0;
   font-size: 1.1em;
 }
+
 .content a {
   text-decoration: none;
   color: lightskyblue;
 }
+
 .content a :hover {
   text-decoration: underline;
 }
+
 @media screen and (min-width: 750px) {
   .content {
     width: 1170px;
@@ -203,9 +233,11 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
 main section {
   max-width: 80%;
 }
+
 main section .main-title {
   width: 100%;
   text-align: center;
@@ -213,6 +245,7 @@ main section .main-title {
   letter-spacing: 0.3em;
   padding-bottom: 0.1em;
 }
+
 @media (max-width: 750px) {
   main section .main-title {
     width: 100%;
@@ -221,6 +254,7 @@ main section .main-title {
     letter-spacing: 0.3em;
   }
 }
+
 main section .sub-title {
   text-align: center;
   font-size: 2.5em;
@@ -228,6 +262,7 @@ main section .sub-title {
   margin-bottom: 0.5em;
   text-decoration: underline;
 }
+
 main section small {
   text-align: center;
   margin-bottom: 1em;
@@ -235,6 +270,7 @@ main section small {
   font-size: 1.5em;
   font-style: italic;
 }
+
 @media (max-width: 750px) {
   main section small {
     text-align: center;
@@ -242,19 +278,23 @@ main section small {
     font-style: italic;
   }
 }
+
 main section .questions-h2 {
   text-align: center;
   font-size: 2em;
   margin-bottom: 0.5em;
 }
+
 main section .asked-title {
   font-size: large;
   margin-bottom: 1em;
 }
+
 main section .answer {
   font-size: medium;
   margin-bottom: 0.5em;
 }
+
 main section img {
   width: 100%;
   max-height: 25em;
@@ -264,6 +304,7 @@ main section img {
 .secNav {
   margin: 17px 10px;
 }
+
 @media (min-width: 750px) {
   .secNav {
     background-color: #112d4e;
@@ -288,6 +329,7 @@ main section img {
   border-radius: 0.5em 0.5em 0.5em 0.5em;
   box-shadow: 0 0.2em 0.3em black;
 }
+
 @media (min-width: 750px) {
   .secNav-menu-item {
     width: auto;
@@ -313,10 +355,12 @@ main section img {
   margin: 0;
   padding: 20px 27px;
 }
+
 .secNav-menu-item button:hover {
   transform: scale(1.1);
   color: whitesmoke;
 }
+
 @media (max-width: 750px) {
   .secNav-menu-item button {
     background-color: #091829;
@@ -333,6 +377,7 @@ main section img {
   box-shadow: 0 0.2em 0.3em black;
   z-index: 1;
 }
+
 @media (min-width: 750px) {
   .secNav-dropdown {
     position: absolute;
@@ -366,16 +411,19 @@ main section img {
   gap: 70px;
   margin: 50px 0;
 }
+
 @media screen and (max-width: 415px) {
   .picture-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
   }
 }
+
 .picture-container .cards {
   width: 14.1em;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 750px) {
   .picture-container .cards {
     max-width: 7em;
@@ -402,8 +450,75 @@ main section img {
   gap: 40px;
   margin: 50px 0;
 }
+
 @media screen and (max-width: 415px) {
   .seatPlanCanvas {
     gap: 20px;
   }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+main .opening-contact {
+  width: 75%;
+}
+
+main .openingHour-main-title {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 0.3em;
+  padding-bottom: 0.8em;
+  padding-top: 1em;
+}
+
+main .sec-title {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+main .opening-hours {
+  text-align: center;
+  font-size: 1.6em;
+  list-style-type: none;
+  font-weight: bold;
+  word-spacing: 2em;
+}
+
+main .avikande {
+  word-spacing: 0px;
+}
+
+main .contact-us {
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+
+main .contact-info {
+  text-align: center;
+  font-size: 1.6em;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+main .hyra {
+  padding-bottom: 1em;
+  padding-top: 2em;
+  text-align: center;
+  font-size: 2em;
+}
+
+main .hyr-oss {
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 1.6em;
+  list-style-type: none;
+  font-weight: bold;
 }
