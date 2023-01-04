@@ -16,6 +16,9 @@ async function showSeats() {
       if(e.target.classList.contains("seat")){
         e.target.classList.add("selected");
         e.target.classList.remove("seat");
+      }else if(e.target.classList.contains("selected")){
+        e.target.classList.remove("selected");
+        e.target.classList.add("seat");
       }
     });
     seat.appendChild(document.createTextNode(count+1));
