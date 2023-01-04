@@ -31,7 +31,7 @@ function appendAnchors(btn, dropDown, anchors) {
     const a = document.createElement("a");
     a.innerHTML = anchors[i][0];
 
-    if (!anchors [i][1] == "hrefLink" || anchors [i][1] == ""){
+    if (anchors [i][1] != "hrefLink" && anchors [i][1] != ""){
         a.setAttribute("href", anchors[i][1]);
     }
     dropDown.append(a);
