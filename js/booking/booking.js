@@ -8,10 +8,27 @@ async function showSeats() {
   let data = await res.json();
 
   li = data.seats;
+  let count = 0;
   li.forEach(function () {
   let seat = document.createElement("div");
     seat.classList.add("seat");
+    seat.addEventListener("click", function (e){
+      if(e.target.classList.contains("seat")){
+        e.target.classList.add("selected");
+        e.target.classList.remove("seat");
+      }
+    });
+    seat.appendChild(document.createTextNode(count+1));
+    if (li[count].wheelchair == true){
+      const image = document.createElement("img")
+      image.src = "../../static/wheelchair.png";
+      seat.appendChild(image);
+    }
+    if (li[count].available == false){
+      seat.classList.add("busy");
+    }
     seatPlan.appendChild(seat);
+    count++;
   })
 }
-  showSeats();
+showSeats();
