@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="static/main.css" />
     <title>LuleNorthernLightsCinema</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="top-header">
-            <!--  Make a good looking logotype later -->
-            <a href="index.html">
-                <img class="logotype" src="static/logga.jpg" alt="logotype for the cinema" /></a>
-            <h1>Lule Northern Lights Cinema</h1>
-            <img id="hamburger-icon" src="static/hamburger-icon.svg" alt="hamburger-icon" />
-        </div>
+      <div class="top-header">
+        <!--  Make a good looking logotype later -->
+        <a href="index.html">
+          <img
+            class="logotype"
+            src="static/logo-cinema.png"
+            alt="logotype for the cinema"
+        /></a>
+        <h1>Lule Northern Lights Cinema</h1>
+        <img
+          id="hamburger-icon"
+          src="static/hamburger-icon.svg"
+          alt="hamburger-icon"
+        />
+      </div>
+
 
         <nav>
             <ul>
@@ -37,104 +45,182 @@
                     <li>Köp presentkort</li>
                 </a>
 
-                <section>
-                    <a href="#">
-                        <img class="social-media-links" src="/static/facebook.svg" alt="facebook icon" /></a>
-                    <a href="#">
-                        <img class="social-media-links" src="/static/instagram.svg" alt="instagram icon" /></a>
-                    <a href="#">
-                        <img class="social-media-links" src="/static/twitter.svg" alt="twitter icon" /></a>
-                    <a href="#">
-                        <img class="social-media-links" src="/static/mail.svg" alt="mail icon" /></a>
-                </section>
-            </ul>
-        </nav>
+
+          <section>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/facebook.svg"
+                alt="facebook icon"
+            /></a>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/instagram.svg"
+                alt="instagram icon"
+            /></a>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/twitter.svg"
+                alt="twitter icon"
+            /></a>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/mail.svg"
+                alt="mail icon"
+            /></a>
+          </section>
+        </ul>
+      </nav>
     </header>
 
     <nav class="secNav">
-        <menu class="secNav-menu">
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="rep">Repertoar</button>
-                <div class="secNav-dropdown" id="rep-dropdown"></div>
-            </li>
+      <menu class="secNav-menu">
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="rep">Repertoar</button>
+          <div class="secNav-dropdown" id="rep-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="sal">Salonger</button>
-                <div class="secNav-dropdown" id="sal-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="sal">Salonger</button>
+          <div class="secNav-dropdown" id="sal-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="spec">Specialvisningar</button>
-                <div class="secNav-dropdown" id="spec-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="spec">Specialvisningar</button>
+          <div class="secNav-dropdown" id="spec-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="live">Live på bio</button>
-                <div class="secNav-dropdown" id="live-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="live">Live på bio</button>
+          <div class="secNav-dropdown" id="live-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="barBist">Bar & Bistro</button>
-                <div class="secNav-dropdown" id="barBist-dropdown"></div>
-            </li>
-        </menu>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="barBist">Bar & Bistro</button>
+          <div class="secNav-dropdown" id="barBist-dropdown"></div>
+        </li>
+      </menu>
     </nav>
 
     <div class="picture-container"></div>
 
+    <!--     modal  -->
+    <div class="modal-container">
+      <div class="cinema-modal"></div>
+    </div>
     <main>
-        <h2>Filmerna här</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab doloremque animi, voluptate distinctio quod sunt nam hic iste voluptatem necessitatibus officia tempora nihil, labore voluptatibus, repellat cum id velit? Aut animi ullam delectus saepe
-            laudantium tempore iste quidem, dolor dicta reprehenderit repudiandae ipsam similique molestias ab dolore quasi obcaecati repellendus. Incidunt accusamus delectus repellat dignissimos sint maiores voluptates eveniet? Quos maiores, rem quibusdam
-            ipsam culpa nemo facilis veniam, distinctio et esse fugit dignissimos ullam ad quod obcaecati ab est architecto iure. Natus facere, consectetur magnam soluta distinctio dolorem ipsam? Minus voluptatum quibusdam voluptatibus, molestiae ducimus
-            nesciunt corrupti. Velit vero ipsa vitae, aperiam facilis at, illum adipisci quisquam placeat eligendi cum consequatur beatae, ad ullam ducimus dolore mollitia numquam deserunt? Animi, debitis. Fuga aliquam cum voluptates eligendi ab assumenda
-            dolorem, molestiae iste nam delectus nulla perferendis. Tempora delectus molestias doloribus eaque porro. Qui odit similique ea eius dolores incidunt laudantium! Ipsum mollitia consectetur eius. Aliquid quia voluptatibus repellat voluptas
-            maxime reprehenderit aut obcaecati doloribus laboriosam harum. Magnam praesentium officia repudiandae ab rerum minima enim unde facilis cum! Libero, voluptas dolorum. Laboriosam porro libero quisquam doloremque nisi perferendis commodi, dignissimos
-            quia pariatur aliquam reprehenderit, labore ea id. Minus, officia quam nesciunt qui velit et reiciendis sapiente esse, at autem, quasi unde! Nam rem odit sed vitae accusantium velit adipisci officia eum laboriosam aut numquam, fugit fugiat
-            quis mollitia obcaecati amet veritatis quasi? Eaque perferendis dicta distinctio, voluptates consequatur tempore excepturi officiis. Molestiae nam excepturi earum iste rem veniam sunt eveniet labore voluptates mollitia deleniti saepe dolorum,
-            ea quibusdam sapiente iure, expedita et autem ad molestias inventore officia commodi dicta! Eum, suscipit! Accusantium aliquid culpa repellendus, vel dolorem qui eaque repellat porro illum quo facilis harum quae ipsa facere aliquam inventore
-            ipsam, reprehenderit ullam unde vitae eligendi. Blanditiis rem magnam illum quaerat. Architecto iusto reiciendis accusamus accusantium possimus neque fugiat saepe eveniet impedit obcaecati est excepturi quia veniam beatae unde dolor suscipit,
-            doloremque animi omnis cupiditate dolorem odit, quidem velit doloribus. Odit. Eaque quos facere voluptatem aperiam tempora. Suscipit fugiat iusto laboriosam ducimus nemo aliquid in, explicabo officia fugit velit est qui rerum quibusdam saepe
-            itaque, veritatis iure, illum vel maiores tempora. Iste, ex! Expedita, maxime. Ipsam magni quia quasi impedit fuga consequatur eum velit molestias quae sapiente tempora iure minus reiciendis dignissimos asperiores, dolorem maxime alias eveniet
-            praesentium quos. Corporis, aut? Aliquid voluptatum explicabo ea vero tenetur nobis totam dicta iure voluptas maxime doloribus et quos rem aliquam a magni consectetur itaque quis voluptatem enim ducimus, sapiente, esse aperiam fuga? Quasi?
-            Architecto mollitia voluptates rem incidunt error excepturi officiis ipsum suscipit, dolorem, ex nulla consectetur, iste delectus quod deleniti impedit laudantium molestiae quidem vel sed saepe atque voluptatum non quam! Qui.
-        </p>
+      <h2>Filmerna här</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab
+        doloremque animi, voluptate distinctio quod sunt nam hic iste voluptatem
+        necessitatibus officia tempora nihil, labore voluptatibus, repellat cum
+        id velit? Aut animi ullam delectus saepe laudantium tempore iste quidem,
+        dolor dicta reprehenderit repudiandae ipsam similique molestias ab
+        dolore quasi obcaecati repellendus. Incidunt accusamus delectus repellat
+        dignissimos sint maiores voluptates eveniet? Quos maiores, rem quibusdam
+        ipsam culpa nemo facilis veniam, distinctio et esse fugit dignissimos
+        ullam ad quod obcaecati ab est architecto iure. Natus facere,
+        consectetur magnam soluta distinctio dolorem ipsam? Minus voluptatum
+        quibusdam voluptatibus, molestiae ducimus nesciunt corrupti. Velit vero
+        ipsa vitae, aperiam facilis at, illum adipisci quisquam placeat eligendi
+        cum consequatur beatae, ad ullam ducimus dolore mollitia numquam
+        deserunt? Animi, debitis. Fuga aliquam cum voluptates eligendi ab
+        assumenda dolorem, molestiae iste nam delectus nulla perferendis.
+        Tempora delectus molestias doloribus eaque porro. Qui odit similique ea
+        eius dolores incidunt laudantium! Ipsum mollitia consectetur eius.
+        Aliquid quia voluptatibus repellat voluptas maxime reprehenderit aut
+        obcaecati doloribus laboriosam harum. Magnam praesentium officia
+        repudiandae ab rerum minima enim unde facilis cum! Libero, voluptas
+        dolorum. Laboriosam porro libero quisquam doloremque nisi perferendis
+        commodi, dignissimos quia pariatur aliquam reprehenderit, labore ea id.
+        Minus, officia quam nesciunt qui velit et reiciendis sapiente esse, at
+        autem, quasi unde! Nam rem odit sed vitae accusantium velit adipisci
+        officia eum laboriosam aut numquam, fugit fugiat quis mollitia obcaecati
+        amet veritatis quasi? Eaque perferendis dicta distinctio, voluptates
+        consequatur tempore excepturi officiis. Molestiae nam excepturi earum
+        iste rem veniam sunt eveniet labore voluptates mollitia deleniti saepe
+        dolorum, ea quibusdam sapiente iure, expedita et autem ad molestias
+        inventore officia commodi dicta! Eum, suscipit! Accusantium aliquid
+        culpa repellendus, vel dolorem qui eaque repellat porro illum quo
+        facilis harum quae ipsa facere aliquam inventore ipsam, reprehenderit
+        ullam unde vitae eligendi. Blanditiis rem magnam illum quaerat.
+        Architecto iusto reiciendis accusamus accusantium possimus neque fugiat
+        saepe eveniet impedit obcaecati est excepturi quia veniam beatae unde
+        dolor suscipit, doloremque animi omnis cupiditate dolorem odit, quidem
+        velit doloribus. Odit. Eaque quos facere voluptatem aperiam tempora.
+        Suscipit fugiat iusto laboriosam ducimus nemo aliquid in, explicabo
+        officia fugit velit est qui rerum quibusdam saepe itaque, veritatis
+        iure, illum vel maiores tempora. Iste, ex! Expedita, maxime. Ipsam magni
+        quia quasi impedit fuga consequatur eum velit molestias quae sapiente
+        tempora iure minus reiciendis dignissimos asperiores, dolorem maxime
+        alias eveniet praesentium quos. Corporis, aut? Aliquid voluptatum
+        explicabo ea vero tenetur nobis totam dicta iure voluptas maxime
+        doloribus et quos rem aliquam a magni consectetur itaque quis voluptatem
+        enim ducimus, sapiente, esse aperiam fuga? Quasi? Architecto mollitia
+        voluptates rem incidunt error excepturi officiis ipsum suscipit,
+        dolorem, ex nulla consectetur, iste delectus quod deleniti impedit
+        laudantium molestiae quidem vel sed saepe atque voluptatum non quam!
+        Qui.
+      </p>
     </main>
     <aside>
-        <h2>
-            Möjligen att vi lägger någon typ info om något kul eller nåt i aside som på insperations biografen
-        </h2>
+      <h2>
+        Möjligen att vi lägger någon typ info om något kul eller nåt i aside som
+        på insperations biografen
+      </h2>
     </aside>
 
     <footer class="footer">
-        <div class="footer-sections">
-            <h3>Lule Northern Lights Cinema</h3>
-            <p>biografgatan 97</p>
-            <p>97231 Luleå</p>
-        </div>
-        <div class="footer-sections">
-            <h3>Kontakta oss</h3>
-            <a href="#">
-                <img class="social-media-links" src="static/facebook.svg" alt="facebook icon" /></a>
-            <a href="#">
-                <img class="social-media-links" src="static/instagram.svg" alt="instagram icon" /></a>
-            <a href="#">
-                <img class="social-media-links" src="static/twitter.svg" alt="twitter icon" /></a>
-            <a href="mailto:">
-                <img class="social-media-links" src="static/mail.svg" alt="mail icon" /></a>
-            <p>Telefon: 010-7308579</p>
-        </div>
-        <div class="footer-sections">
-            <h3>Samarbete med</h3>
-            <img id="municipality-logo" src="static/kommun-logo.svg" alt="municipality for our city" />
-            <img id="cinema-collab" src="static/europa-cinemas.png" alt="cinema collab" />
-        </div>
+      <div class="footer-sections">
+        <h3>Lule Northern Lights Cinema</h3>
+        <p>biografgatan 97</p>
+        <p>97231 Luleå</p>
+      </div>
+      <div class="footer-sections">
+        <h3>Kontakta oss</h3>
+        <a href="#">
+          <img
+            class="social-media-links"
+            src="static/facebook.svg"
+            alt="facebook icon"
+        /></a>
+        <a href="#">
+          <img
+            class="social-media-links"
+            src="static/instagram.svg"
+            alt="instagram icon"
+        /></a>
+        <a href="#">
+          <img
+            class="social-media-links"
+            src="static/twitter.svg"
+            alt="twitter icon"
+        /></a>
+        <a href="mailto:">
+          <img class="social-media-links" src="static/mail.svg" alt="mail icon"
+        /></a>
+        <p>Telefon: 010-7308579</p>
+      </div>
+      <div class="footer-sections">
+        <h3>Samarbete med</h3>
+        <img
+          id="municipality-logo"
+          src="static/kommun-logo.svg"
+          alt="municipality for our city"
+        />
+        <img
+          id="cinema-collab"
+          src="static/europa-cinemas.png"
+          alt="cinema collab"
+        />
+      </div>
     </footer>
     <script type="text/javascript" src="/src/movies.json"></script>
 
     <script src="./js/script.js"></script>
     <script src="./js/secNav/secNav.js" type="module"></script>
-</body>
-
+  </body>
 </html>
