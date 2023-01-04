@@ -60,8 +60,7 @@ html {
   width: 3em;
   margin: 0em 1em 0 0;
   color: #dbe2ef;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
-    brightness(105%) contrast(92%);
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
 }
 @media screen and (min-width: 750px) {
   .header .top-header #hamburger-icon {
@@ -95,8 +94,7 @@ html {
 }
 .header nav .main-nav section .social-media-links {
   color: #dbe2ef;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
-    brightness(105%) contrast(92%);
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
 }
 .header nav .main-nav a {
   text-decoration: none;
@@ -138,8 +136,7 @@ footer .footer-sections p {
 }
 footer .footer-sections .social-media-links {
   color: #dbe2ef;
-  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg)
-    brightness(105%) contrast(92%);
+  filter: invert(94%) sepia(10%) saturate(397%) hue-rotate(16deg) brightness(105%) contrast(92%);
   padding: 3px;
 }
 footer .footer-sections #municipality-logo {
@@ -400,71 +397,6 @@ main section img {
   }
 }
 
-.screen {
-  width: 65%;
-  background-color: crimson;
-  font-size: 3em;
-}
-
-.seat {
-  background-color: rgb(167, 216, 233);
-  width: 20px;
-  height: 20px;
-}
-
-.seatPlanCanvas {
-  display: grid;
-  grid-template-columns: repeat(12, auto);
-  grid-template-rows: repeat(6, auto);
-  gap: 40px;
-  margin: 50px 0;
-}
-@media screen and (max-width: 415px) {
-  .seatPlanCanvas {
-    gap: 20px;
-  }
-}
-
-
-#ul {
-  font-size: 0.9rem;
-  display: flex-column;
-  width: 80%;
-  background-color: #fff;
-  border-radius: 0.5em;
-}
-#ul li {
-  display: flex;
-  max-width: 80%;
-  margin: 0.5em 0.5em;
-}
-#ul li img {
-  max-width: 15vw;
-}
-#ul li div {
-  margin-left: 2em;
-}
-#ul li div h2 {
-  font-size: 1.5em;
-  margin-bottom: 1em;
-}
-#ul li div a {
-  display: flex-row;
-  padding: 0.5em;
-  margin-right: 0.1em;
-  flex-wrap: nowrap;
-  border: 1px solid gray;
-  align-self: flex-end;
-}
-
-@media (max-width: 550px) {
-  #ul {
-    font-size: 0.7em;
-  }
-  #ul img {
-    object-fit: scale-down;
-  }
-
 .modal-container {
   display: none;
   position: fixed;
@@ -534,5 +466,75 @@ main section img {
 }
 .modal-container .cinema-modal .close:active {
   transform: scale(0.99);
+}
 
+.screen {
+  width: 65%;
+  background-color: crimson;
+  font-size: 3em;
+}
+
+.seat {
+  background-color: rgb(167, 216, 233);
+  width: 20px;
+  height: 20px;
+}
+
+.seatPlanCanvas {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(6, auto);
+  gap: 40px;
+  margin: 50px 0;
+}
+@media screen and (max-width: 415px) {
+  .seatPlanCanvas {
+    gap: 20px;
+  }
+}
+
+#ul {
+  font-size: 0.9rem;
+  display: flex-column;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+#ul li {
+  display: flex;
+  max-width: 80%;
+  margin: 0.5em 0.5em;
+}
+#ul li img {
+  max-width: 15vw;
+}
+#ul li div {
+  margin-left: 2em;
+}
+#ul li div h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+#ul li div a {
+  display: flex-row;
+  padding: 0.5em;
+  margin-right: 0.1em;
+  flex-wrap: nowrap;
+  border: 1px solid gray;
+  align-self: flex-end;
+}
+
+@media (max-width: 550px) {
+  #ul {
+    font-size: 0.7em;
+  }
+  #ul img {
+    object-fit: scale-down;
+  }
+}
+main .upcoming .upcoming-movies {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.5em;
 }
