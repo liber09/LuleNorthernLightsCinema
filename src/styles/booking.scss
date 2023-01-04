@@ -22,14 +22,15 @@
         margin: 0 0 0 0.5em;
         
     }
-    .selected{
-        background-color: $selected-seat-color;
-        transition: 0.2s;
-    }
-    .unavailable{
-        background-color: $unavailable-seat-color;
-        transition: 0.2s;
-    }
+}
+.selected{
+    background-color: $selected-seat-color;
+    transition: 0.2s;
+}
+.unavailable{
+    background-color: $unavailable-seat-color;
+    transition: 0.2s;
+    color: whitesmoke;
 }
 .seatPlanCanvas {
     display: grid;

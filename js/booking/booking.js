@@ -25,7 +25,7 @@ async function showSeats() {
       seat.appendChild(image);
     }
     if (li[count].available == false){
-      seat.classList.add("busy");
+      seat.classList.add("unavailable");
     }
     seatPlan.appendChild(seat);
     count++;
