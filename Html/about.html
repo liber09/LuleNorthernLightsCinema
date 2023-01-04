@@ -46,5 +46,38 @@
         </ul>
       </nav>
     </header>
-  </body>
+
+    <!-- Lägg in href-länkar för secNav i följande .js-fil:
+         js/secNav/anchors.js
+    -->
+    <nav class="secNav">
+        <menu class="secNav-menu">
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="rep">Repertoar</button>
+                <div class="secNav-dropdown" id="rep-dropdown"></div>
+            </li>
+
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="sal">Salonger</button>
+                <div class="secNav-dropdown" id="sal-dropdown"></div>
+            </li>
+
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="spec">Specialvisningar</button>
+                <div class="secNav-dropdown" id="spec-dropdown"></div>
+            </li>
+
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="live">Live på bio</button>
+                <div class="secNav-dropdown" id="live-dropdown"></div>
+            </li>
+
+            <li class="secNav-menu-item">
+                <button class="dropBtn" id="barBist">Bar & Bistro</button>
+                <div class="secNav-dropdown" id="barBist-dropdown"></div>
+            </li>
+        </menu>
+    </nav>
+    <script src="../js/secNav/secNav.js" type="module"></script>
+</body>
 </html>
