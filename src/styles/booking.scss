@@ -11,6 +11,7 @@
     height: 20px;
     text-align: center;
     color: red;
+    cursor: pointer;
     &:hover{
         background-color: $hover-seat-color;
         transition: 0.2s;
@@ -23,13 +24,33 @@
     }
 }
 .selected{
+    display:flex;
     background-color: $selected-seat-color;
     transition: 0.2s;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    
+    img{
+        width: 20px;
+        height: 20px;
+        margin: 0 0 0 0.5em;
+    }
 }
 .unavailable{
+    display:flex;
     background-color: $unavailable-seat-color;
     transition: 0.2s;
     color: whitesmoke;
+    cursor: not-allowed;
+    width: 20px;
+    height: 20px;
+
+    img{
+        width: 20px;
+        height: 20px;
+        margin: 0 0 0 0.5em;
+    }
 }
 .seatPlanCanvas {
     display: grid;
