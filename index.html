@@ -15,12 +15,11 @@
         <a href="index.html">
           <img
             class="logotype"
-            src="static/logga.jpg"
+            src="static/logo-cinema.png"
             alt="logotype for the cinema"
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
         <img
-          onclick="hamburger()"
           id="hamburger-icon"
           src="static/hamburger-icon.svg"
           alt="hamburger-icon"
@@ -28,12 +27,49 @@
       </div>
 
       <nav>
-        <ul class="main-nav">
-          <a href="html/openingHours.html"><li>Öppetider & Kontakt</li></a>
-          <a href="/html/about.html"> <li>Om våran biograf</li></a>
-          <a href="/html/ticket-info.html"> <li>Biljettinfo</li></a>
-          <a href="/html/newsletter.html"> <li>Nyheter</li></a>
-          <a href="/html/ticket-info.html"><li>Köp presentkort</li></a>
+        <ul>
+          <a href="#">
+            <li>Öppetider & Kontakt</li>
+          </a>
+          <a href="#">
+            <li>Om våran biograf</li>
+          </a>
+          <a href="/html/ticket-info.html">
+            <li>Biljettinfo</li>
+          </a>
+          <a href="/html/newsletter.html">
+            <li>Nyheter</li>
+          </a>
+          <a href="/html/giftCard.html">
+            <li>Köp presentkort</li>
+          </a>
+
+          <section>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/facebook.svg"
+                alt="facebook icon"
+            /></a>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/instagram.svg"
+                alt="instagram icon"
+            /></a>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/twitter.svg"
+                alt="twitter icon"
+            /></a>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/mail.svg"
+                alt="mail icon"
+            /></a>
+          </section>
         </ul>
       </nav>
     </header>
@@ -69,6 +105,10 @@
 
     <div class="picture-container"></div>
 
+    <!--     modal  -->
+    <div class="modal-container">
+      <div class="cinema-modal"></div>
+    </div>
     <main>
       <h2>Filmerna här</h2>
       <p>
@@ -177,7 +217,7 @@
       </div>
     </footer>
     <script type="text/javascript" src="/src/movies.json"></script>
-    ;
+
     <script src="./js/script.js"></script>
     <script src="./js/secNav/secNav.js" type="module"></script>
   </body>
