@@ -187,3 +187,17 @@ footer .footer-sections #cinema-collab {
     width: 1170px;
   }
 }
+
+.fnb {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  max-width: 80vw;
+  margin: 1em auto;
+  border: 1px solid red;
+}
+.fnb li {
+  list-style: none;
+}
+.fnb h2, .fnb p, .fnb ul {
+  margin: 0.25em 0;
+}
