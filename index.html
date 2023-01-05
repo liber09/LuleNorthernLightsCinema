@@ -194,6 +194,10 @@
     <script type="text/javascript" src="/src/movies.json"></script>
 
     <script src="./js/script.js"></script>
-    <script src="./js/secNav/secNav.js" type="module"></script>
+
+    <script type="module">
+      import renderSecNav from "/js/secNav/secNav.js"
+      renderSecNav("./html/"); // Pass along folderDir as an argument to inform where the secNav .html-files are located
+    </script>
   </body>
 </html>
