@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -538,10 +539,16 @@ main .about-us {
 main .about-main-title {
   width: 100%;
   text-align: center;
-  font-size: 4em;
-  letter-spacing: 0.3em;
-  padding-bottom: 0.1em;
-  padding-top: 0.6em;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 5px;
+  background-color: white;
+  width: 90%;
+  max-width: 700px;
+  height: auto;
+  margin: 20vh auto;
+  animation: fadeInModal 0.6s;
+  padding-bottom: 40px;
 }
 main .our-history {
   text-align: center;
@@ -561,5 +568,165 @@ main .our-cinema {
 }
 main .our-cinema-paragraph {
   font-size: 1.2em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5em;}
+
+.bookingContent {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  width: 863px;
+  padding: 0 15px 15px 15px;
+  margin: 0 auto 3em auto;
+  background-color: #112d4e;
+  color: whitesmoke;
+  text-align: center;
+}
+.bookingContent p {
+  padding: 1em 1em 1em 0;
+  font-size: 1.1em;
+}
+.bookingContent a {
+  text-decoration: none;
+  color: lightskyblue;
+}
+.bookingContent a :hover {
+  text-decoration: underline;
+}
+@media screen and (min-width: 750px) {
+  .bookingContent {
+    width: 1170px;
+  }
+}
+
+.screen {
+  width: 65%;
+  background-color: crimson;
+  font-size: 3em;
+  margin-left: 130px;
+}
+
+.seat {
+  display: flex;
+  background-color: rgb(167, 216, 233);
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
+.seat:hover {
+  background-color: rgb(238, 238, 20);
+  transition: 0.2s;
+}
+.seat img {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 0.5em;
+}
+
+.selected {
+  display: flex;
+  background-color: rgb(71, 209, 71);
+  transition: 0.2s;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.selected img {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 0.5em;
+}
+
+.unavailable {
+  display: flex;
+  background-color: rgb(255, 0, 0);
+  transition: 0.2s;
+  color: whitesmoke;
+  cursor: not-allowed;
+  width: 20px;
+  height: 20px;
+}
+.unavailable img {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 0.5em;
+}
+
+.seatPlanCanvas {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(6, auto);
+  gap: 40px;
+  margin: 50px 0;
+}
+@media screen and (max-width: 415px) {
+  .seatPlanCanvas {
+    gap: 20px;
+  }
+}
+
+.ticketSelector {
+  display: flex;
+}
+.ticketSelector .active {
+  display: flex;
+  width: 200px;
+}
+
+.ticket {
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.addToCart {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: green;
+  margin: 10px;
+}
+
+#ul {
+  font-size: 0.9rem;
+  display: flex-column;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+#ul li {
+  display: flex;
+  max-width: 80%;
+  margin: 0.5em 0.5em;
+}
+#ul li img {
+  max-width: 15vw;
+}
+#ul li div {
+  margin-left: 2em;
+}
+#ul li div h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+#ul li div a {
+  display: flex-row;
+  padding: 0.5em;
+  margin-right: 0.1em;
+  flex-wrap: nowrap;
+  border: 1px solid gray;
+  align-self: flex-end;
+}
+
+@media (max-width: 550px) {
+  #ul {
+    font-size: 0.7em;
+  }
+  #ul img {
+    object-fit: scale-down;
+  }
 }
