@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../static/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>LuleNorthernLightsCinema</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
         <a href="../index.html">
           <img
             class="logotype"
-            src="/static/logo-cinema.png"
+            src="../static/logo-cinema.png"
             alt="logotype for the cinema"
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
@@ -98,10 +99,17 @@
       <h2>Boka din plats</h2>
     </section>
     <main class="content">
-      <div class="screen">Bioduk</div>
-      <div id="seatPlanContainer" class="seatPlanContainer">
-        <div id="seatPlanCanvas" class="seatPlanCanvas"></div>
+      <div class="bookingContent">
+        <div class="screen">Bioduk</div>
+        <div class = ticketSelector>
+          <div class ="ticket">Matinébiljett 100kr</div>
+          <button class="addToCart">Lägg till</button>
+        </div>
+        <div id="seatPlanContainer" class="seatPlanContainer">
+          <div id="seatPlanCanvas" class="seatPlanCanvas">
+        </div>
       </div>
+      
     </main>
 
     <footer class="footer">
