@@ -117,7 +117,12 @@
     </footer>
 
     <script src="../js/movieRows.js" type="module"></script>
-    <script src="../js/secNav/secNav.js" type="module"></script>
+    
+    <script type="module">
+        import renderSecNav from "../js/secNav/secNav.js"
+        renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
+      </script>
+
 </body>
 
 </html>
