@@ -77,32 +77,32 @@
          js/secNav/anchors.js
     -->
     <nav class="secNav">
-        <menu class="secNav-menu">
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="rep">Repertoar</button>
-                <div class="secNav-dropdown" id="rep-dropdown"></div>
-            </li>
+      <menu class="secNav-menu">
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="rep">Repertoar</button>
+          <div class="secNav-dropdown" id="rep-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="sal">Salonger</button>
-                <div class="secNav-dropdown" id="sal-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="sal">Salonger</button>
+          <div class="secNav-dropdown" id="sal-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="spec">Specialvisningar</button>
-                <div class="secNav-dropdown" id="spec-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="spec">Specialvisningar</button>
+          <div class="secNav-dropdown" id="spec-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="live">Live på bio</button>
-                <div class="secNav-dropdown" id="live-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="live">Live på bio</button>
+          <div class="secNav-dropdown" id="live-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="barBist">Bar & Bistro</button>
-                <div class="secNav-dropdown" id="barBist-dropdown"></div>
-            </li>
-        </menu>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="barBist">Bar & Bistro</button>
+          <div class="secNav-dropdown" id="barBist-dropdown"></div>
+        </li>
+      </menu>
     </nav>
     <section class="pageHeader">
       <h2>Presentkort</h2>
@@ -187,11 +187,10 @@
         />
       </div>
     </footer>
-
+    <script src="./js/script.js"></script>
     <script type="module">
-      import renderSecNav from "../js/secNav/secNav.js"
+      import renderSecNav from "../js/secNav/secNav.js";
       renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
     </script>
-    
   </body>
 </html>
