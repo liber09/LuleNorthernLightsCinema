@@ -629,6 +629,13 @@ main section img {
     object-fit: scale-down;
   }
 }
+main .upcoming .upcoming-movies {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
 main .about-us {
   width: 75%;
 }
@@ -729,4 +736,12 @@ main .hyr-oss {
 }
 .fnb h2, .fnb p, .fnb ul {
   margin: 0.25em 0;
+}
+.fnb.fnb-book-a-table {
+  font-weight: bold;
+  padding: 3px;
+}
+
+.food-diet-vegan {
+  color: green;
 }
