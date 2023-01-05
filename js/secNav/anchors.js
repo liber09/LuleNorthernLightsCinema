@@ -35,7 +35,7 @@ const live4 = ["Konsert", "hrefLink"];
 liveAncs.push(live1, live2, live3, live4);
 
 //Fifth btn
-const barBist1 = ["Meny", "hrefLink"];
+const barBist1 = ["Meny", "bistro-menu.html"];
 const barBist2 = ["Premiärfredag", "hrefLink"];
 const barBist3 = ["Filmquiz", "hrefLink"];
 barBistAncs.push(barBist1, barBist2, barBist3);
