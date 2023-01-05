@@ -6,9 +6,9 @@ export const barBistAncs = [];
 
 //First btn
 const rep1 = ["Hela bioprogrammet", "hrefLink"];
-const rep2 = ["Kommande premiärer", "hrefLink"]
+const rep2 = ["Kommande premiärer", "upcoming.html"];
 const rep3 = ["Matinéfilm för 100kr", "matiné.html"];
-repAncs.push(rep1, rep2, rep3)
+repAncs.push(rep1, rep2, rep3);
 
 //Second btn
 const salon1 = ["Alcazar", "hrefLink"];
@@ -25,8 +25,7 @@ const spec5 = ["Cinemateket", "hrefLink"];
 const spec6 = ["Galapremiärer", "hrefLink"];
 const spec7 = ["Hollywood om Hollywood", "hrefLink"];
 const spec8 = ["Dokumentärer", "hrefLink"];
-specAncs.push(spec1, spec2, spec3, spec4, spec5,
-spec6, spec7, spec8);
+specAncs.push(spec1, spec2, spec3, spec4, spec5, spec6, spec7, spec8);
 
 //Fourth btn
 const live1 = ["Hela programmet", "hrefLink"];
