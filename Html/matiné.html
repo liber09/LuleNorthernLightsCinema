@@ -123,7 +123,6 @@
         som visas just nu.
       </p>
     </main>
-   
 
     <footer class="footer">
       <div class="footer-sections">
@@ -173,12 +172,10 @@
         />
       </div>
     </footer>
-    <script src="/js/script.js"></script>
+    <script type="module" src="/js/script.js"></script>
     <script type="module">
-        import renderSecNav from "../js/secNav/secNav.js"
-        renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
-      </script>
-      
-</body>
-
+      import renderSecNav from "../js/secNav/secNav.js";
+      renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
+    </script>
+  </body>
 </html>

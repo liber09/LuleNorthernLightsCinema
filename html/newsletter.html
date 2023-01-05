@@ -19,7 +19,6 @@
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
         <img
-          onclick="hamburger()"
           id="hamburger-icon"
           src="../static/hamburger-icon.svg"
           alt="hamburger-icon"
@@ -172,7 +171,7 @@
         />
       </div>
     </footer>
-    <script src="./js/script.js"></script>
+    <script type="module" src="/js/script.js"></script>
     <script type="module">
       import renderSecNav from "../js/secNav/secNav.js";
       renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
