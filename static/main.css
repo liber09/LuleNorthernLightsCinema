@@ -469,107 +469,6 @@ main section img {
   transform: scale(0.99);
 }
 
-.screen {
-  width: 65%;
-  background-color: crimson;
-  font-size: 3em;
-}
-
-.seat {
-  background-color: rgb(167, 216, 233);
-  width: 20px;
-  height: 20px;
-}
-
-.seatPlanCanvas {
-  display: grid;
-  grid-template-columns: repeat(12, auto);
-  grid-template-rows: repeat(6, auto);
-  gap: 40px;
-  margin: 50px 0;
-}
-@media screen and (max-width: 415px) {
-  .seatPlanCanvas {
-    gap: 20px;
-  }
-}
-
-#ul {
-  font-size: 0.9rem;
-  display: flex-column;
-  width: 80%;
-  background-color: #fff;
-  border-radius: 0.5em;
-}
-#ul li {
-  display: flex;
-  max-width: 80%;
-  margin: 0.5em 0.5em;
-}
-#ul li img {
-  max-width: 15vw;
-}
-#ul li div {
-  margin-left: 2em;
-}
-#ul li div h2 {
-  font-size: 1.5em;
-  margin-bottom: 1em;
-}
-#ul li div a {
-  display: flex-row;
-  padding: 0.5em;
-  margin-right: 0.1em;
-  flex-wrap: nowrap;
-  border: 1px solid gray;
-  align-self: flex-end;
-}
-
-@media (max-width: 550px) {
-  #ul {
-    font-size: 0.7em;
-  }
-  #ul img {
-    object-fit: scale-down;
-  }
-}
-main .about-us {
-  width: 75%;
-}
-main .about-main-title {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  border-radius: 5px;
-  background-color: white;
-  width: 90%;
-  max-width: 700px;
-  height: auto;
-  margin: 20vh auto;
-  animation: fadeInModal 0.6s;
-  padding-bottom: 40px;
-}
-main .our-history {
-  text-align: center;
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
-  padding-top: 0.4em;
-}
-main .history-paragraph {
-  font-size: 1.2em;
-  margin-bottom: 0.5em;
-}
-main .our-cinema {
-  text-align: center;
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
-  padding-top: 0.4em;
-}
-main .our-cinema-paragraph {
-  font-size: 1.2em;
-  margin-bottom: 0.5em;}
-
 .bookingContent {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -721,6 +620,7 @@ main .our-cinema-paragraph {
   border: 1px solid gray;
   align-self: flex-end;
 }
+
 @media (max-width: 550px) {
   #ul {
     font-size: 0.7em;
@@ -729,6 +629,95 @@ main .our-cinema-paragraph {
     object-fit: scale-down;
   }
 }
+main .about-us {
+  width: 75%;
+}
+main .about-main-title {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 0.3em;
+  padding-bottom: 0.1em;
+  padding-top: 0.6em;
+}
+main .our-history {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.4em;
+}
+main .history-paragraph {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+main .our-cinema {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.4em;
+}
+main .our-cinema-paragraph {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+}
+main .opening-contact {
+  width: 75%;
+}
+main .openingHour-main-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3.8em;
+  letter-spacing: 0.3em;
+  padding-bottom: 0.8em;
+  padding-top: 1em;
+}
+main .sec-title {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+main .opening-hours {
+  text-align: center;
+  font-size: 1.6em;
+  list-style-type: none;
+  font-weight: bold;
+  word-spacing: 2em;
+}
+main .avikande {
+  word-spacing: 0px;
+}
+main .contact-us {
+  padding-bottom: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+main .contact-info {
+  text-align: center;
+  font-size: 1.6em;
+  list-style-type: none;
+  font-weight: bold;
+}
+main .hyra {
+  padding-bottom: 1em;
+  padding-top: 2em;
+  text-align: center;
+  font-size: 2em;
+}
+main .hyr-oss {
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 1.6em;
+  list-style-type: none;
+  font-weight: bold;
+}
+
 .fnb {
   font-family: "Inter", sans-serif;
   font-size: 20px;
@@ -740,3 +729,4 @@ main .our-cinema-paragraph {
 }
 .fnb h2, .fnb p, .fnb ul {
   margin: 0.25em 0;
+}
