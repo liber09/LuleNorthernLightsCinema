@@ -19,6 +19,7 @@
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
         <img
+          onclick="hamburger()"
           id="hamburger-icon"
           src="../static/hamburger-icon.svg"
           alt="hamburger-icon"
@@ -42,6 +43,32 @@
           <a href="giftCard.html">
             <li>Köp presentkort</li>
           </a>
+          <section>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/facebook.svg"
+                alt="facebook icon"
+            /></a>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/instagram.svg"
+                alt="instagram icon"
+            /></a>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/twitter.svg"
+                alt="twitter icon"
+            /></a>
+            <a href="#">
+              <img
+                class="social-media-links"
+                src="/static/mail.svg"
+                alt="mail icon"
+            /></a>
+          </section>
         </ul>
       </nav>
     </header>
@@ -49,32 +76,32 @@
     <!-- Lägg in href-länkar för secNav i följande .js-fil:
         js/secNav/anchors.js -->
     <nav class="secNav">
-        <menu class="secNav-menu">
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="rep">Repertoar</button>
-                <div class="secNav-dropdown" id="rep-dropdown"></div>
-            </li>
+      <menu class="secNav-menu">
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="rep">Repertoar</button>
+          <div class="secNav-dropdown" id="rep-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="sal">Salonger</button>
-                <div class="secNav-dropdown" id="sal-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="sal">Salonger</button>
+          <div class="secNav-dropdown" id="sal-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="spec">Specialvisningar</button>
-                <div class="secNav-dropdown" id="spec-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="spec">Specialvisningar</button>
+          <div class="secNav-dropdown" id="spec-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="live">Live på bio</button>
-                <div class="secNav-dropdown" id="live-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="live">Live på bio</button>
+          <div class="secNav-dropdown" id="live-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="barBist">Bar & Bistro</button>
-                <div class="secNav-dropdown" id="barBist-dropdown"></div>
-            </li>
-        </menu>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="barBist">Bar & Bistro</button>
+          <div class="secNav-dropdown" id="barBist-dropdown"></div>
+        </li>
+      </menu>
     </nav>
 
     <main>

@@ -17,6 +17,7 @@ html {
   box-shadow: 0 0.2em 0.3em black;
   color: #dbe2ef;
   min-height: 150px;
+  margin-bottom: 40px;
 }
 .header .top-header {
   padding-top: 40px;
@@ -34,7 +35,7 @@ html {
     position: absolute;
     top: 20px;
     left: 0;
-    width: 19em;
+    width: 17em;
     height: auto;
   }
 }
