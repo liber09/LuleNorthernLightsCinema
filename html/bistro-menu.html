@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="static/main.css" />
+    <link rel="stylesheet" href="/static/main.css" />
     <title>LuleNorthernLightsCinema</title>
   </head>
 
   <body>
     <header class="header">
       <div class="top-header">
-        <a href="index.html">
+        <a href="/index.html">
           <img
             class="logotype"
             src="/static/logo-cinema.png"
@@ -19,7 +19,6 @@
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
         <img
-          onclick="hamburger()"
           id="hamburger-icon"
           src="../static/hamburger-icon.svg"
           alt="hamburger-icon"
@@ -28,19 +27,19 @@
 
       <nav>
         <ul class="main-nav">
-          <a href="/html/openingHours.html">
+          <a href="openingHours.html">
             <li>Öppetider & Kontakt</li>
           </a>
-          <a href="/html/about.html">
+          <a href="about.html">
             <li>Om våran biograf</li>
           </a>
-          <a href="./html/ticket-info.html">
+          <a href="ticket-info.html">
             <li>Biljettinfo</li>
           </a>
-          <a href=".html/newsletter.html">
+          <a href="newsletter.html">
             <li>Nyheter</li>
           </a>
-          <a href=".html/giftCard.html">
+          <a href="giftCard.html">
             <li>Köp presentkort</li>
           </a>
         </ul>
@@ -48,8 +47,7 @@
     </header>
 
     <!-- Lägg in href-länkar för secNav i följande .js-fil:
-         js/secNav/anchors.js
-    -->
+        js/secNav/anchors.js -->
     <nav class="secNav">
         <menu class="secNav-menu">
             <li class="secNav-menu-item">
@@ -79,13 +77,53 @@
         </menu>
     </nav>
 
-    <div class="picture-container"></div>
-
-    <!--     modal  -->
-    <div class="modal-container">
-      <div class="cinema-modal"></div>
-    </div>
-
+        <section class="fnb fnb-food-header">
+            <h2>Välkommen till Northen Lights Bistro & Bar</h2>
+            <p>
+                Hos oss kan du njuta av ett modernt och rustikt nordiskt kök.
+                Menyn kombineras med dryckesförslag av vår sommelier Sten Bumling 
+                och kan avnjutas såväl i vår stora foajé som i någon av våra tre 
+                biosalonger.
+            </p>
+            
+            <a href="mailto:">
+                Boka Bord
+            </a>
+        </section>
+        <section class="fnb fnb-food-alacarte">
+            <h2>A la carte meny</h2>
+            <em>
+                Vi serverar vår à la carte meny från klockan 
+                16.30 i bistron, salong Bar Deco och Camera.
+            </em>
+            <ul>
+                <li>Rätt 1</li>
+                <li>Rätt 2</li>
+                <li>Rätt 3</li>
+                <li>Rätt 4</li>
+                <li>Rätt 5</li>
+            </ul>
+        </section>
+        <section class="fnb fnb-food-special">
+            <h2>Kökets special</h2>
+            <p>
+                Vecka 50-51: Lättrökt svensk ostronskivling med 
+                julkryddade gulbetor och stuvad grönkål.
+            </p>
+        </section>
+        <section class="fnb fnb-food-bistro">
+            <h2>Bistromeny</h2>
+            <em>
+                Vi erbjuder vår bistromeny hela dagen i alla våra tre salonger.
+            </em>
+            <ul>
+                <li>Rätt 1</li>
+                <li>Rätt 2</li>
+                <li>Rätt 3</li>
+                <li>Rätt 4</li>
+                <li>Rätt 5</li>
+            </ul>
+        </section>    
     <footer class="footer">
       <div class="footer-sections">
         <h3>Lule Northern Lights Cinema</h3>
@@ -97,23 +135,26 @@
         <a href="#">
           <img
             class="social-media-links"
-            src="static/facebook.svg"
+            src="/static/facebook.svg"
             alt="facebook icon"
         /></a>
         <a href="#">
           <img
             class="social-media-links"
-            src="static/instagram.svg"
+            src="/static/instagram.svg"
             alt="instagram icon"
         /></a>
         <a href="#">
           <img
             class="social-media-links"
-            src="static/twitter.svg"
+            src="/static/twitter.svg"
             alt="twitter icon"
         /></a>
         <a href="mailto:">
-          <img class="social-media-links" src="static/mail.svg" alt="mail icon"
+          <img 
+            class="social-media-links"
+            src="/static/mail.svg" 
+            alt="mail icon"
         /></a>
         <p>Telefon: 010-7308579</p>
       </div>
@@ -121,23 +162,20 @@
         <h3>Samarbete med</h3>
         <img
           id="municipality-logo"
-          src="static/kommun-logo.svg"
+          src="/static/kommun-logo.svg"
           alt="municipality for our city"
         />
         <img
           id="cinema-collab"
-          src="static/europa-cinemas.png"
+          src="/static/europa-cinemas.png"
           alt="cinema collab"
         />
       </div>
     </footer>
-    <script type="text/javascript" src="/src/movies.json"></script>
-
-    <script src="./js/script.js"></script>
 
     <script type="module">
-      import renderSecNav from "/js/secNav/secNav.js"
-      renderSecNav("./html/"); // Pass along folderDir as an argument to inform where the secNav .html-files are located
+      import renderSecNav from "../js/secNav/secNav.js"
+      renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
     </script>
   </body>
 </html>
