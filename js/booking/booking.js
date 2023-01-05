@@ -1,6 +1,8 @@
 let seatPlan = document.querySelector("#seatPlanCanvas");
+let ticketSelector = document.querySelector(".ticketSelector");
 let seats;
 let li;
+let numberOfSelected = 0;
 
 async function showSeats() {
 
@@ -15,11 +17,17 @@ async function showSeats() {
     seat.addEventListener("click", function (e){
       if(e.target.classList.contains("seat")){
         e.target.classList.add("selected");
+        numberOfSelected++;
         e.target.classList.remove("seat");
       }else if(e.target.classList.contains("selected")){
         e.target.classList.remove("selected");
+        numberOfSelected--;
         e.target.classList.add("seat");
       }
+      if(numberOfSelected > 0 && ticketSelector.classList.contains("active") == false){
+        ticketSelector.classList.add("active");
+      }
+      
     });
     seat.appendChild(document.createTextNode(count+1));
     if (li[count].wheelchair == true){
