@@ -5,7 +5,7 @@ export const liveAncs = [];
 export const barBistAncs = [];
 
 //First btn
-const rep1 = ["Hela bioprogrammet", "hrefLink"];
+const rep1 = ["Hela bioprogrammet", "wholeProgramPage.html"];
 const rep2 = ["Kommande premiärer", "upcoming.html"];
 const rep3 = ["Matinéfilm för 100kr", "matiné.html"];
 repAncs.push(rep1, rep2, rep3);
