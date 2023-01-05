@@ -738,8 +738,12 @@ main .hyr-oss {
   margin: 0.25em 0;
 }
 .fnb.fnb-book-a-table {
-  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: 700;
   padding: 3px;
+}
+.fnb a {
+  color: #112d4e;
 }
 
 .food-diet-vegan {
