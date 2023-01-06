@@ -4,24 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../static/main.css" />
+    <link rel="stylesheet" href="static/main.css" />
     <title>LuleNorthernLightsCinema</title>
   </head>
 
   <body>
     <header class="header">
       <div class="top-header">
-        <a href="../index.html">
+        <a href="index.html">
           <img
             class="logotype"
-            src="/static/logo-cinema.png"
+            src="static/logo-cinema.png"
             alt="logotype for the cinema"
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
         <img
           onclick="hamburger()"
           id="hamburger-icon"
-          src="../static/hamburger-icon.svg"
+          src="static/hamburger-icon.svg"
           alt="hamburger-icon"
         />
       </div>
@@ -47,25 +47,25 @@
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/facebook.svg"
+                src="static/facebook.svg"
                 alt="facebook icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/instagram.svg"
+                src="static/instagram.svg"
                 alt="instagram icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/twitter.svg"
+                src="static/twitter.svg"
                 alt="twitter icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/mail.svg"
+                src="static/mail.svg"
                 alt="mail icon"
             /></a>
           </section>
@@ -77,32 +77,32 @@
          js/secNav/anchors.js
     -->
     <nav class="secNav">
-        <menu class="secNav-menu">
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="rep">Repertoar</button>
-                <div class="secNav-dropdown" id="rep-dropdown"></div>
-            </li>
+      <menu class="secNav-menu">
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="rep">Repertoar</button>
+          <div class="secNav-dropdown" id="rep-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="sal">Salonger</button>
-                <div class="secNav-dropdown" id="sal-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="sal">Salonger</button>
+          <div class="secNav-dropdown" id="sal-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="spec">Specialvisningar</button>
-                <div class="secNav-dropdown" id="spec-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="spec">Specialvisningar</button>
+          <div class="secNav-dropdown" id="spec-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="live">Live på bio</button>
-                <div class="secNav-dropdown" id="live-dropdown"></div>
-            </li>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="live">Live på bio</button>
+          <div class="secNav-dropdown" id="live-dropdown"></div>
+        </li>
 
-            <li class="secNav-menu-item">
-                <button class="dropBtn" id="barBist">Bar & Bistro</button>
-                <div class="secNav-dropdown" id="barBist-dropdown"></div>
-            </li>
-        </menu>
+        <li class="secNav-menu-item">
+          <button class="dropBtn" id="barBist">Bar & Bistro</button>
+          <div class="secNav-dropdown" id="barBist-dropdown"></div>
+        </li>
+      </menu>
     </nav>
     <section class="pageHeader">
       <h2>Presentkort</h2>
@@ -131,7 +131,7 @@
       </p>
       <p>
         <img
-          src="../static/giftcard.png"
+          src="static/giftcard.png"
           alt="Bild på en biosalong med röda stolar i bakgrunden och i förgrunden är det ett glas vin, en stor bulle och ett presentkort ovanpå ett bord. Belysnigen i rummet är dämpad."
           width="300"
           height="300"
@@ -150,26 +150,23 @@
         <a href="#">
           <img
             class="social-media-links"
-            src="../static/facebook.svg"
+            src="static/facebook.svg"
             alt="facebook icon"
         /></a>
         <a href="#">
           <img
             class="social-media-links"
-            src="../static/instagram.svg"
+            src="static/instagram.svg"
             alt="instagram icon"
         /></a>
         <a href="#">
           <img
             class="social-media-links"
-            src="../static/twitter.svg"
+            src="static/twitter.svg"
             alt="twitter icon"
         /></a>
         <a href="mailto:">
-          <img
-            class="social-media-links"
-            src="../static/mail.svg"
-            alt="mail icon"
+          <img class="social-media-links" src="static/mail.svg" alt="mail icon"
         /></a>
         <p>Telefon: 010-7308579</p>
       </div>
@@ -177,21 +174,20 @@
         <h3>Samarbete med</h3>
         <img
           id="municipality-logo"
-          src="../static/kommun-logo.svg"
+          src="static/kommun-logo.svg"
           alt="municipality for our city"
         />
         <img
           id="cinema-collab"
-          src="../static/europa-cinemas.png"
+          src="static/europa-cinemas.png"
           alt="cinema collab"
         />
       </div>
     </footer>
 
     <script type="module">
-      import renderSecNav from "../js/secNav/secNav.js"
+      import renderSecNav from "../js/secNav/secNav.js";
       renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
     </script>
-    
   </body>
 </html>
