@@ -5,7 +5,7 @@ let li;
 let numberOfSelected = 0;
 
 async function showSeats() {
-  let res = await fetch("src/seats.json");
+  let res = await fetch("../src/seats.json");
   let data = await res.json();
 
   li = data.seats;
