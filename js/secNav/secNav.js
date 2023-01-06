@@ -7,7 +7,6 @@ import {
 } from "./anchors.js";
 
 // Only pass along folderDir if the html-files are in another directory than the calling document.
-export default function renderSecNav() {
   const rep = document.querySelector("#rep");
   const repDrop = document.querySelector("#rep-dropdown");
   appendAnchors(rep, repDrop, repAncs);
@@ -63,4 +62,3 @@ export default function renderSecNav() {
       document.querySelector("#barBist-dropdown").classList.remove("show");
     }
   };
-}
