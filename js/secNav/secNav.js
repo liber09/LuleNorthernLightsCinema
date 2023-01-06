@@ -6,7 +6,7 @@ import {
   barBistAncs,
 } from "./anchors.js";
 
-const folderDir = "/LuleNorthenLightsCinema/pages/";
+const folderDir = "/LuleNorthernLightsCinema/pages/";
 // Only pass along folderDir if the html-files are in another directory than the calling document.
 const rep = document.querySelector("#rep");
 const repDrop = document.querySelector("#rep-dropdown");
