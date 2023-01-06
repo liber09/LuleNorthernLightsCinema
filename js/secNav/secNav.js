@@ -7,7 +7,7 @@ import {
 } from "./anchors.js";
 
 // Only pass along folderDir if the html-files are in another directory than the calling document.
-export default function renderSecNav(folderDir) {
+export default function renderSecNav() {
   const rep = document.querySelector("#rep");
   const repDrop = document.querySelector("#rep-dropdown");
   appendAnchors(rep, repDrop, repAncs);
@@ -28,17 +28,15 @@ export default function renderSecNav(folderDir) {
   const barBistDrop = document.querySelector("#barBist-dropdown");
   appendAnchors(barBist, barBistDrop, barBistAncs);
 
+  const folderDir = "/LuleNorthenLightsCinema/pages/";
+
   function appendAnchors(btn, dropDown, anchors) {
     for (let i = 0; i < anchors.length; i++) {
       const a = document.createElement("a");
       a.innerHTML = anchors[i][0];
 
       if (anchors[i][1] != "hrefLink" && anchors[i][1] != "") {
-        if (folderDir === "") {
-          a.setAttribute("href", anchors[i][1]);
-        } else {
           a.setAttribute("href", folderDir + anchors[i][1]);
-        }
       }
       dropDown.append(a);
     }

@@ -3,7 +3,6 @@ export const salAncs = [];
 export const specAncs = [];
 export const liveAncs = [];
 export const barBistAncs = [];
-// const url = "/LuleNorthenLightsCinema/Html/";
 
 //First btn
 const rep1 = ["Hela bioprogrammet", "wholeProgramPage.html"];
