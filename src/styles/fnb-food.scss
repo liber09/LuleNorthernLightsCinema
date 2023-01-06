@@ -10,5 +10,16 @@
         h2, p, ul{
             margin: 0.25em 0;
         }
+        &.fnb-book-a-table{
+            font-size: 1.3rem;
+            font-weight: 700;
+            padding: 3px;
+        }
+        a{
+            color: $blue-color;
+        }
     
+}
+.food-diet-vegan{
+    color: green;
 }
