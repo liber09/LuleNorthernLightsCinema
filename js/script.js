@@ -13,16 +13,16 @@ function hamburger() {
 let movies;
 
 let div = document.querySelector(".picture-container");
-let li;
+let listItem;
 let modal = document.querySelector(".cinema-modal");
 
 async function displayCards() {
   let res = await fetch("src/movies.json");
   let data = await res.json();
 
-  li = data.movies;
+  listItem = data.movies;
 
-  li.forEach(function (movieAll) {
+  listItem.forEach(function (movieAll) {
     let img = document.createElement("img");
     img.setAttribute("src", movieAll.posterImageUrl);
     img.setAttribute("alt", "poster of the movie");
