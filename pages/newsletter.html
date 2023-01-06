@@ -11,62 +11,60 @@
   <body>
     <header class="header">
       <div class="top-header">
-        
-        <a href="/index.html">
+        <a href="../index.html">
           <img
             class="logotype"
             src="../static/logo-cinema.png"
             alt="logotype for the cinema"
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
-        <img onclick="hamburger()"
+        <img
+          onclick="hamburger()"
           id="hamburger-icon"
           src="../static/hamburger-icon.svg"
           alt="hamburger-icon"
         />
       </div>
-
       <nav>
         <ul class="main-nav">
-          <a href="/html/openingHours.html">
+          <a href="openingHours.html">
             <li>Öppetider & Kontakt</li>
           </a>
-          <a href="/html/about.html">
+          <a href="about.html">
             <li>Om våran biograf</li>
           </a>
-          <a href="/html/ticket-info.html">
+          <a href="ticket-info.html">
             <li>Biljettinfo</li>
           </a>
-          <a href="/html/newsletter.html">
+          <a href="newsletter.html">
             <li>Nyheter</li>
           </a>
-          <a href="/html/giftCard.html">
+          <a href="giftCard.html">
             <li>Köp presentkort</li>
           </a>
-
           <section>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/facebook.svg"
+                src="../static/facebook.svg"
                 alt="facebook icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/instagram.svg"
+                src="../static/instagram.svg"
                 alt="instagram icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/twitter.svg"
+                src="../static/twitter.svg"
                 alt="twitter icon"
             /></a>
-            <a href="mailto:">
+            <a href="#">
               <img
                 class="social-media-links"
-                src="/static/mail.svg"
+                src="../static/mail.svg"
                 alt="mail icon"
             /></a>
           </section>
@@ -74,6 +72,8 @@
       </nav>
     </header>
 
+    <!-- Lägg in href-länkar för secNav i följande .js-fil:
+         js/secNav/anchors.js -->
     <nav class="secNav">
       <menu class="secNav-menu">
         <li class="secNav-menu-item">
@@ -102,13 +102,26 @@
         </li>
       </menu>
     </nav>
-
-    <div class="picture-container"></div>
-
-    <main>
-      <ul id="ul"></ul>
+    <section class="pageHeader">
+      <h2>Nyhetsbrev</h2>
+    </section>
+    <main class="content">
+      <p>
+        Vill du ha koll på vad som händer hos oss, premiärer, specialvisningar
+        och biljettsläpp. Varannan vecka skickar vi ut ett nyhetsprev späckat
+        med filmnyheter!
+      </p>
+      <p>
+        <a href="#">Självklart vill jag prenumerera på nyhetsbrevet!!</a>
+      </p>
+      <img
+        src="../static/newsletter.png"
+        alt="Exempel nyhetsbrev"
+        width="300"
+        height="453"
+      />
+      <p>Exemplet är från vecka 40.</p>
     </main>
-   
 
     <footer class="footer">
       <div class="footer-sections">
@@ -137,10 +150,7 @@
             alt="twitter icon"
         /></a>
         <a href="mailto:">
-          <img
-            class="social-media-links"
-            src="../static/mail.svg"
-            alt="mail icon"
+          <img class="social-media-links" src="../static/mail.svg" alt="mail icon"
         /></a>
         <p>Telefon: 010-7308579</p>
       </div>
@@ -158,14 +168,7 @@
         />
       </div>
     </footer>
-    <script src="/js/script.js"></script>
-    <script src="../js/movieRows.js" type="module"></script>
-    
-    <script type="module">
-        import renderSecNav from "../js/secNav/secNav.js"
-        renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
-      </script>
-
-</body>
-
+    <script src="../js/script.js"></script>
+    <script src="../js/secNav/secNav.js" type="module"></script>
+  </body>
 </html>

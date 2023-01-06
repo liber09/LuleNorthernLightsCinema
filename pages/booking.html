@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../static/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>LuleNorthernLightsCinema</title>
   </head>
-
   <body>
     <header class="header">
       <div class="top-header">
         <a href="../index.html">
           <img
             class="logotype"
-            src="/static/logo-cinema.png"
+            src="../static/logo-cinema.png"
             alt="logotype for the cinema"
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
@@ -25,7 +25,6 @@
           alt="hamburger-icon"
         />
       </div>
-
       <nav>
         <ul class="main-nav">
           <a href="openingHours.html">
@@ -47,25 +46,25 @@
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/facebook.svg"
+                src="../static/facebook.svg"
                 alt="facebook icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/instagram.svg"
+                src="../static/instagram.svg"
                 alt="instagram icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/twitter.svg"
+                src="../static/twitter.svg"
                 alt="twitter icon"
             /></a>
-            <a href="mailto:">
+            <a href="#">
               <img
                 class="social-media-links"
-                src="/static/mail.svg"
+                src="../static/mail.svg"
                 alt="mail icon"
             /></a>
           </section>
@@ -74,7 +73,8 @@
     </header>
 
     <!-- Lägg in href-länkar för secNav i följande .js-fil:
-         js/secNav/anchors.js -->
+         js/secNav/anchors.js
+    -->
     <nav class="secNav">
       <menu class="secNav-menu">
         <li class="secNav-menu-item">
@@ -103,25 +103,21 @@
         </li>
       </menu>
     </nav>
+
     <section class="pageHeader">
-      <h2>Nyhetsbrev</h2>
+      <h2>Boka din plats</h2>
     </section>
     <main class="content">
-      <p>
-        Vill du ha koll på vad som händer hos oss, premiärer, specialvisningar
-        och biljettsläpp. Varannan vecka skickar vi ut ett nyhetsprev späckat
-        med filmnyheter!
-      </p>
-      <p>
-        <a href="#">Självklart vill jag prenumerera på nyhetsbrevet!!</a>
-      </p>
-      <img
-        src="../static/newsletter.png"
-        alt="Exempel nyhetsbrev"
-        width="300"
-        height="453"
-      />
-      <p>Exemplet är från vecka 40.</p>
+      <div class="bookingContent">
+        <div class="screen">Bioduk</div>
+        <div class = ticketSelector>
+          <div class ="ticket">Matinébiljett 100kr</div>
+          <button class="addToCart">Lägg till</button>
+        </div>
+        <div id="seatPlanContainer" class="seatPlanContainer">
+          <div id="seatPlanCanvas" class="seatPlanCanvas">
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
@@ -135,26 +131,23 @@
         <a href="#">
           <img
             class="social-media-links"
-            src="/static/facebook.svg"
+            src="../static/facebook.svg"
             alt="facebook icon"
         /></a>
         <a href="#">
           <img
             class="social-media-links"
-            src="/static/instagram.svg"
+            src="../static/instagram.svg"
             alt="instagram icon"
         /></a>
         <a href="#">
           <img
             class="social-media-links"
-            src="/static/twitter.svg"
+            src="../static/twitter.svg"
             alt="twitter icon"
         /></a>
         <a href="mailto:">
-          <img
-            class="social-media-links"
-            src="/static/mail.svg"
-            alt="mail icon"
+          <img class="social-media-links" src="../static/mail.svg" alt="mail icon"
         /></a>
         <p>Telefon: 010-7308579</p>
       </div>
@@ -162,21 +155,20 @@
         <h3>Samarbete med</h3>
         <img
           id="municipality-logo"
-          src="/static/kommun-logo.svg"
+          src="../static/kommun-logo.svg"
           alt="municipality for our city"
         />
         <img
           id="cinema-collab"
-          src="/static/europa-cinemas.png"
+          src="../static/europa-cinemas.png"
           alt="cinema collab"
         />
       </div>
     </footer>
 
-    <script type="module">
-      import renderSecNav from "../js/secNav/secNav.js"
-      renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
-    </script>
+    <script src="../js/booking/booking.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/secNav/secNav.js" type="module"></script>
     
   </body>
 </html>

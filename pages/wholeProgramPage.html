@@ -14,17 +14,17 @@
         <a href="../index.html">
           <img
             class="logotype"
-            src="/static/logo-cinema.png"
+            src="../static/logo-cinema.png"
             alt="logotype for the cinema"
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
         <img
+          onclick="hamburger()"
           id="hamburger-icon"
           src="../static/hamburger-icon.svg"
           alt="hamburger-icon"
         />
       </div>
-
       <nav>
         <ul class="main-nav">
           <a href="openingHours.html">
@@ -46,25 +46,25 @@
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/facebook.svg"
+                src="../static/facebook.svg"
                 alt="facebook icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/instagram.svg"
+                src="../static/instagram.svg"
                 alt="instagram icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/twitter.svg"
+                src="../static/twitter.svg"
                 alt="twitter icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="/static/mail.svg"
+                src="../static/mail.svg"
                 alt="mail icon"
             /></a>
           </section>
@@ -72,9 +72,6 @@
       </nav>
     </header>
 
-    <!-- Lägg in href-länkar för secNav i följande .js-fil:
-         js/secNav/anchors.js
-    -->
     <nav class="secNav">
       <menu class="secNav-menu">
         <li class="secNav-menu-item">
@@ -103,27 +100,12 @@
         </li>
       </menu>
     </nav>
-    <section class="pageHeader">
-      <h2>Matinéfilm för 100 kronor</h2>
-    </section>
-    <main class="content">
-      <p>
-        På vardagar klockan 14 till 15 har du möjligheten att se en matinéfilm
-        och få 50 kronor i rabatt. Här presenterar vi Oscarsnominerade filmer,
-        briljant arthousefilm och en mängd andra guldkorn!
-      </p>
-      <p>
-        Du väljer helt enkelt önskad visning, biljettyp (med eller utan mat) och
-        kommer därefter till oss på Spegeln för en härlig bioeftermiddag i en
-        skön biofåtölj! Rabatten är inkluderad när du köper en biljett till en
-        matinéfilm på hemsidan.
-      </p>
-      <p>
-        Klicka dig vidare till vårt <a>bioprogram</a> för att se vilka matinéer
-        som visas just nu.
-      </p>
+
+    <div class="picture-container"></div>
+
+    <main>
+      <ul id="ul"></ul>
     </main>
-   
 
     <footer class="footer">
       <div class="footer-sections">
@@ -152,10 +134,7 @@
             alt="twitter icon"
         /></a>
         <a href="mailto:">
-          <img
-            class="social-media-links"
-            src="../static/mail.svg"
-            alt="mail icon"
+          <img class="social-media-links" src="../static/mail.svg" alt="mail icon"
         /></a>
         <p>Telefon: 010-7308579</p>
       </div>
@@ -173,12 +152,9 @@
         />
       </div>
     </footer>
-    <script src="/js/script.js"></script>
-    <script type="module">
-        import renderSecNav from "../js/secNav/secNav.js"
-        renderSecNav(""); //Pass along emtpy folderDir since the secNav html-files are in the same directory as this one
-      </script>
-      
-</body>
-
+    
+    <script src="../js/movieRows.js" type="module"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/secNav/secNav.js" type="module"></script>
+  </body>
 </html>

@@ -3,10 +3,9 @@ export const salAncs = [];
 export const specAncs = [];
 export const liveAncs = [];
 export const barBistAncs = [];
-const url = "/LuleNorthenLightsCinema/Html/";
 
 //First btn
-const rep1 = ["Hela bioprogrammet", `${url}wholeProgramPage.html`];
+const rep1 = ["Hela bioprogrammet", "wholeProgramPage.html"];
 const rep2 = ["Kommande premiärer", "upcoming.html"];
 const rep3 = ["Matinéfilm för 100kr", "matiné.html"];
 repAncs.push(rep1, rep2, rep3);
