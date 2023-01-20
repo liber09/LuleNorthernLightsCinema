@@ -4,67 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="static/main.css" />
+    <link rel="stylesheet" href="../static/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>LuleNorthernLightsCinema</title>
   </head>
-
   <body>
     <header class="header">
       <div class="top-header">
-        <a href="index.html">
+        <a href="../index.html">
           <img
             class="logotype"
-            src="static/logo-cinema.png"
+            src="../static/logo-cinema.png"
             alt="logotype for the cinema"
         /></a>
         <h1>Lule Northern Lights Cinema</h1>
         <img
           onclick="hamburger()"
           id="hamburger-icon"
-          src="static/hamburger-icon.svg"
+          src="../static/hamburger-icon.svg"
           alt="hamburger-icon"
         />
       </div>
       <nav>
         <ul class="main-nav">
-          <a href="pages/openingHours.html">
+          <a href="openingHours.html">
             <li>Öppetider & Kontakt</li>
           </a>
-          <a href="pages/about.html">
+          <a href="about.html">
             <li>Om våran biograf</li>
           </a>
-          <a href="pages/ticket-info.html">
+          <a href="ticket-info.html">
             <li>Biljettinfo</li>
           </a>
-          <a href="pages/newsletter.html">
+          <a href="newsletter.html">
             <li>Nyheter</li>
           </a>
-          <a href="pages/giftCard.html">
+          <a href="giftCard.html">
             <li>Köp presentkort</li>
           </a>
           <section>
             <a href="#">
               <img
                 class="social-media-links"
-                src="static/facebook.svg"
+                src="../static/facebook.svg"
                 alt="facebook icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="static/instagram.svg"
+                src="../static/instagram.svg"
                 alt="instagram icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="static/twitter.svg"
+                src="../static/twitter.svg"
                 alt="twitter icon"
             /></a>
             <a href="#">
               <img
                 class="social-media-links"
-                src="static/mail.svg"
+                src="../static/mail.svg"
                 alt="mail icon"
             /></a>
           </section>
@@ -104,12 +104,21 @@
       </menu>
     </nav>
 
-    <div class="picture-container"></div>
-
-    <!--     modal  -->
-    <div class="modal-container">
-      <div class="cinema-modal"></div>
-    </div>
+    <section class="pageHeader">
+      <h2>Boka din plats</h2>
+    </section>
+    <main class="content">
+      <div class="bookingContent">
+        <div class="screen">Bioduk</div>
+        <div class = ticketSelector>
+          <div class ="ticket">Matinébiljett 100kr</div>
+          <button class="addToCart">Lägg till</button>
+        </div>
+        <div id="seatPlanContainer" class="seatPlanContainer">
+          <div id="seatPlanCanvas" class="seatPlanCanvas">
+        </div>
+      </div>
+    </main>
 
     <footer class="footer">
       <div class="footer-sections">
@@ -122,23 +131,23 @@
         <a href="#">
           <img
             class="social-media-links"
-            src="static/facebook.svg"
+            src="../static/facebook.svg"
             alt="facebook icon"
         /></a>
         <a href="#">
           <img
             class="social-media-links"
-            src="static/instagram.svg"
+            src="../static/instagram.svg"
             alt="instagram icon"
         /></a>
         <a href="#">
           <img
             class="social-media-links"
-            src="static/twitter.svg"
+            src="../static/twitter.svg"
             alt="twitter icon"
         /></a>
         <a href="mailto:">
-          <img class="social-media-links" src="static/mail.svg" alt="mail icon"
+          <img class="social-media-links" src="../static/mail.svg" alt="mail icon"
         /></a>
         <p>Telefon: 010-7308579</p>
       </div>
@@ -146,18 +155,20 @@
         <h3>Samarbete med</h3>
         <img
           id="municipality-logo"
-          src="static/kommun-logo.svg"
+          src="../static/kommun-logo.svg"
           alt="municipality for our city"
         />
         <img
           id="cinema-collab"
-          src="static/europa-cinemas.png"
+          src="../static/europa-cinemas.png"
           alt="cinema collab"
         />
       </div>
     </footer>
 
-    <script src="js/script.js"></script>
-    <script src="js/secNav/secNav.js" type="module"></script>
+    <script src="../js/booking/booking.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/secNav/secNav.js" type="module"></script>
+    
   </body>
 </html>
