@@ -103,7 +103,7 @@ async function displayCards() {
       let button = document.createElement("button");
       button.innerText = "Boka";
       button.classList.add("book-movie");
-      tagButton.setAttribute("href", "pages/booking.html");
+      tagButton.setAttribute("href", "/booking");
       tagButton.append(button);
 
       textContainer1.append(title);
