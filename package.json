@@ -1,27 +1,33 @@
 {
-  "name": "lulenorthernlightscinema",
-  "version": "1.0.0",
-  "description": "Biograf i Luleå",
-  "main": "index.js",
-  "scripts": {
-
-    "sass": "sass --no-source-map src/main.scss static/main.css",
-
-    "watch": "sass --no-source-map --watch src/main.scss static/main.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liber09/LuleNorthernLightsCinema.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/liber09/LuleNorthernLightsCinema/issues"
-  },
-  "homepage": "https://github.com/liber09/LuleNorthernLightsCinema#readme",
-  "dependencies": {
-    "node-sass": "^8.0.0",
-    "sass": "^1.57.1"
-  }
+    "name": "lulenorthernlightscinema",
+    "version": "1.0.0",
+    "description": "Biograf i Luleå",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon",
+        "sass": "sass --no-source-map src/main.scss static/main.css",
+        "watch": "sass --no-source-map --watch src/main.scss static/main.css",
+        "dev": "npm-run-all --parallel watch start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/liber09/LuleNorthernLightsCinema.git"
+    },
+    "keywords": [],
+    "author": "Burak Özdemirok",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/liber09/LuleNorthernLightsCinema/issues"
+    },
+    "homepage": "https://github.com/liber09/LuleNorthernLightsCinema#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "node-sass": "^8.0.0",
+        "sass": "^1.57.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20",
+        "npm-run-all": "^4.1.5"
+    }
 }
