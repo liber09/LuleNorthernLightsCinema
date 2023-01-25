@@ -4,12 +4,18 @@ import fs from "fs/promises";
 const app = express();
 
 app.get("/", async(req, res) => {
-    const buf = await fs.readFile("./index.html");
+    const buf = await fs.readFile("src/templates/index.html");
     res.type("html");
     res.send(buf);
 });
 
-app.get("/:name", async(req, res) => {
+app.get("./src/templates", async(req, res) => {
+    const buf = await fs.readFile("src/templates/index.html");
+    res.type("html");
+    res.send(buf);
+});
+
+/* app.get("/:name", async(req, res) => {
     const name = req.params.name;
 
     const buf = await fs.readFile("./");
@@ -17,7 +23,7 @@ app.get("/:name", async(req, res) => {
 
     res.type("html");
     res.send(html);
-});
+}); */
 
 app.use("/static", express.static("./static"));
 
