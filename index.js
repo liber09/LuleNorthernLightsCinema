@@ -3,19 +3,25 @@ import fs from "fs/promises";
 
 const app = express();
 
-app.get("/*", async(req, res) => {
-    const buf = await fs.readFile("index.html");
+app.get("/", async(req, res) => {
+    const buf = await fs.readFile("./index.html");
     res.type("html");
     res.send(buf);
 });
 
-app.get("/pages/*", async(req, res) => {
-    const buf = await fs.readFile("index.html");
+app.get("/:name", async(req, res) => {
+    const name = req.params.name;
+
+    const buf = await fs.readFile("./");
+    const html = buf.toString().replace("world", name);
+
     res.type("html");
-    res.send(buf);
+    res.send(html);
 });
 
 app.use("/static", express.static("./static"));
+
+app.listen(5030);
 
 /* app.get("/static/*", async(req, res) => {
     const path = req.path;
@@ -34,5 +40,3 @@ app.use("/static", express.static("./static"));
     res.type("css");
     res.send(buf);
 }); */
-
-app.listen(3080);

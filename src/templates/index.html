@@ -5,44 +5,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../static/main.css" />
+    <link rel="stylesheet" href="./static/main.css" />
     <title>LuleNorthernLightsCinema</title>
 </head>
 
 <body>
     <header class="header">
         <div class="top-header">
-            <a href="../index.html">
-                <img class="logotype" src="../static/logo-cinema.png" alt="logotype for the cinema" /></a>
+            <a href="index.html">
+                <img class="logotype" src="static/logo-cinema.png" alt="logotype for the cinema" /></a>
             <h1>Lule Northern Lights Cinema</h1>
-            <img onclick="hamburger()" id="hamburger-icon" src="../static/hamburger-icon.svg" alt="hamburger-icon" />
+            <img onclick="hamburger()" id="hamburger-icon" src="static/hamburger-icon.svg" alt="hamburger-icon" />
         </div>
         <nav>
             <ul class="main-nav">
-                <a href="openingHours.html">
+                <a href="pages/openingHours.html">
                     <li>Öppetider & Kontakt</li>
                 </a>
-                <a href="about.html">
+                <a href="pages/about.html">
                     <li>Om våran biograf</li>
                 </a>
-                <a href="ticket-info.html">
+                <a href="pages/ticket-info.html">
                     <li>Biljettinfo</li>
                 </a>
-                <a href="newsletter.html">
+                <a href="pages/newsletter.html">
                     <li>Nyheter</li>
                 </a>
-                <a href="giftCard.html">
+                <a href="pages/giftCard.html">
                     <li>Köp presentkort</li>
                 </a>
                 <section>
                     <a href="#">
-                        <img class="social-media-links" src="../static/facebook.svg" alt="facebook icon" /></a>
+                        <img class="social-media-links" src="static/facebook.svg" alt="facebook icon" /></a>
                     <a href="#">
-                        <img class="social-media-links" src="../static/instagram.svg" alt="instagram icon" /></a>
+                        <img class="social-media-links" src="static/instagram.svg" alt="instagram icon" /></a>
                     <a href="#">
-                        <img class="social-media-links" src="../static/twitter.svg" alt="twitter icon" /></a>
+                        <img class="social-media-links" src="static/twitter.svg" alt="twitter icon" /></a>
                     <a href="#">
-                        <img class="social-media-links" src="../static/mail.svg" alt="mail icon" /></a>
+                        <img class="social-media-links" src="static/mail.svg" alt="mail icon" /></a>
                 </section>
             </ul>
         </nav>
@@ -79,29 +79,13 @@
             </li>
         </menu>
     </nav>
-    <section class="pageHeader">
-        <h2>Kommande Filmer</h2>
-    </section>
-    <main>
-        <section class="upcoming">
-            <ul class="upcoming-movies">
-                <li>6/1 - Operation Fortune: Ruse de Guerre</li>
-                <li>6/1 - En sång för min dotter</li>
-                <li>13/1 - All the Beauty and the Bloodshed</li>
-                <li>13/1 - A Man Called Otto</li>
-                <li>20/1 Holy Spider</li>
-                <li>20/1 - The Son</li>
-                <li>27/1 - Babylon</li>
-                <li>27/1 - The Banshees of Inisherin</li>
-                <li>3/2 - The Other Fellow</li>
-                <li>3/2 - En dag kommer allt det här bli ditt</li>
-                <li>3/2 - The Fabelmans</li>
-                <li>10/2 - Dogborn</li>
-                <li>11/2 - Godland</li>
-                <li>17/2 - Aftersun</li>
-            </ul>
-        </section>
-    </main>
+
+    <div class="picture-container"></div>
+
+    <!--     modal  -->
+    <div class="modal-container">
+        <div class="cinema-modal"></div>
+    </div>
 
     <footer class="footer">
         <div class="footer-sections">
@@ -112,23 +96,24 @@
         <div class="footer-sections">
             <h3>Kontakta oss</h3>
             <a href="#">
-                <img class="social-media-links" src="../static/facebook.svg" alt="facebook icon" /></a>
+                <img class="social-media-links" src="static/facebook.svg" alt="facebook icon" /></a>
             <a href="#">
-                <img class="social-media-links" src="../static/instagram.svg" alt="instagram icon" /></a>
+                <img class="social-media-links" src="static/instagram.svg" alt="instagram icon" /></a>
             <a href="#">
-                <img class="social-media-links" src="../static/twitter.svg" alt="twitter icon" /></a>
+                <img class="social-media-links" src="static/twitter.svg" alt="twitter icon" /></a>
             <a href="mailto:">
-                <img class="social-media-links" src="../static/mail.svg" alt="mail icon" /></a>
+                <img class="social-media-links" src="static/mail.svg" alt="mail icon" /></a>
             <p>Telefon: 010-7308579</p>
         </div>
         <div class="footer-sections">
             <h3>Samarbete med</h3>
-            <img id="municipality-logo" src="../static/kommun-logo.svg" alt="municipality for our city" />
-            <img id="cinema-collab" src="../static/europa-cinemas.png" alt="cinema collab" />
+            <img id="municipality-logo" src="static/kommun-logo.svg" alt="municipality for our city" />
+            <img id="cinema-collab" src="static/europa-cinemas.png" alt="cinema collab" />
         </div>
     </footer>
-    <script src="../js/script.js"></script>
-    <script src="../js/secNav/secNav.js" type="module"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/secNav/secNav.js" type="module"></script>
 </body>
 
 </html>
