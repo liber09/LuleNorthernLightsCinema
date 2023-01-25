@@ -4,45 +4,55 @@ import fs from "fs/promises";
 const app = express();
 
 app.get("/", async(req, res) => {
-    const buf = await fs.readFile("src/templates/index.html");
+    const buf = await fs.readFile("./templates/index.html");
     res.type("html");
     res.send(buf);
 });
 
-app.get("./src/templates", async(req, res) => {
-    const buf = await fs.readFile("src/templates/index.html");
+app.get("/opening-hours", async(req, res) => {
+    const buf = await fs.readFile("./templates/openingHours.html");
     res.type("html");
     res.send(buf);
 });
 
-/* app.get("/:name", async(req, res) => {
-    const name = req.params.name;
-
-    const buf = await fs.readFile("./");
-    const html = buf.toString().replace("world", name);
-
+app.get("/about", async(req, res) => {
+    const buf = await fs.readFile("./templates/about.html");
     res.type("html");
-    res.send(html);
-}); */
+    res.send(buf);
+});
+
+app.get("/ticket-info", async(req, res) => {
+    const buf = await fs.readFile("./templates/ticket-info.html");
+    res.type("html");
+    res.send(buf);
+});
+
+app.get("/newsletter", async(req, res) => {
+    const buf = await fs.readFile("./templates/newsletter.html");
+    res.type("html");
+    res.send(buf);
+});
+
+app.get("/gift-card", async(req, res) => {
+    const buf = await fs.readFile("./templates/giftCard.html");
+    res.type("html");
+    res.send(buf);
+});
 
 app.use("/static", express.static("./static"));
 
-app.listen(5030);
+app.listen(5080);
 
-/* app.get("/static/*", async(req, res) => {
-    const path = req.path;
-    try {
-        const buf = await fs.readFile("./" + path);
-        const fields = path.split(".");
-        res.type(fields.pop());
-        res.send(buf);
-    } catch (err) {
-        res.status(404).end();
-    }
-}); */
+app.get("/", async(req, res) => {
+    await renderTemplate(res, "index.html", "/");
+});
 
-/* app.use("/*", async(req, res) => {
-    const buf = await fs.readFile("./static/main.css");
-    res.type("css");
-    res.send(buf);
-}); */
+app.get("/about", async(req, res) => {
+    await renderTemplate(res, "about.html", "/about");
+});
+
+app.get("/contact", async(req, res) => {
+    await renderTemplate(res, "contact.html", "/contact");
+});
+
+app.use("/static", express.static("./static"));
