@@ -9,6 +9,8 @@ app.get("/", async(req, res) => {
     res.send(buf);
 });
 
+
+
 app.get("/opening-hours", async(req, res) => {
     const buf = await fs.readFile("./templates/openingHours.html");
     res.type("html");
