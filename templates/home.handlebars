@@ -1,0 +1,10 @@
+<h1 class="our-movies">Filmer på Bio!</h1>
+<ul class="movie-list">
+  {{#each movies}}
+    <li class="movie-links">
+      <a href="/movies/{{this.id}}">
+        {{this.attributes.title}}
+      </a>
+    </li>
+  {{/each}}
+</ul>
