@@ -826,3 +826,52 @@ main {
     max-width: 1000px;
   }
 }
+#movieSiteLink {
+  color: #112d4e;
+  font-size: 140px;
+  position: relative;
+  left: 30%;
+  bottom: 24vh;
+}
+
+.movie-site-container {
+  width: 70%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 60px;
+  padding-left: 60px;
+  border: 1px solid red;
+}
+
+.about-main-title {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 0.3em;
+  padding-bottom: 0.1em;
+  padding-top: 0.6em;
+}
+
+.movie-title {
+  font-size: x-large;
+}
+
+.movie-intro {
+  font-size: large;
+  padding-bottom: 20px;
+}
+
+.movie-poster {
+  width: 300px;
+  height: 500px;
+}
+
+.footer-movie-site {
+  background-color: #112d4e;
+  border-radius: 1em 1em 0em 0em;
+  box-shadow: 0 0.2em 0.3em black;
+  color: #dbe2ef;
+  min-height: 150px;
+  gap: 30px;
+  font-family: "Inter", sans-serif;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../static/main.css" />
+    <link rel="stylesheet" href="./static/main.css" />
     <title>LuleNorthernLightsCinema</title>
 </head>
 
@@ -13,9 +13,9 @@
     <header class="header">
         <div class="top-header">
             <a href="/">
-                <img class="logotype" src="../static/logo-cinema.png" alt="logotype for the cinema" /></a>
+                <img class="logotype" src="static/logo-cinema.png" alt="logotype for the cinema" /></a>
             <h1>Lule Northern Lights Cinema</h1>
-            <img onclick="hamburger()" id="hamburger-icon" src="../static/hamburger-icon.svg" alt="hamburger-icon" />
+            <img onclick="hamburger()" id="hamburger-icon" src="static/hamburger-icon.svg" alt="hamburger-icon" />
         </div>
         <nav>
             <ul class="main-nav">
@@ -36,20 +36,21 @@
                 </a>
                 <section>
                     <a href="#">
-                        <img class="social-media-links" src="../static/facebook.svg" alt="facebook icon" /></a>
+                        <img class="social-media-links" src="static/facebook.svg" alt="facebook icon" /></a>
                     <a href="#">
-                        <img class="social-media-links" src="../static/instagram.svg" alt="instagram icon" /></a>
+                        <img class="social-media-links" src="static/instagram.svg" alt="instagram icon" /></a>
                     <a href="#">
-                        <img class="social-media-links" src="../static/twitter.svg" alt="twitter icon" /></a>
+                        <img class="social-media-links" src="static/twitter.svg" alt="twitter icon" /></a>
                     <a href="#">
-                        <img class="social-media-links" src="../static/mail.svg" alt="mail icon" /></a>
+                        <img class="social-media-links" src="static/mail.svg" alt="mail icon" /></a>
                 </section>
             </ul>
         </nav>
     </header>
 
     <!-- Lägg in href-länkar för secNav i följande .js-fil:
-        js/secNav/anchors.js -->
+         js/secNav/anchors.js
+    -->
     <nav class="secNav">
         <menu class="secNav-menu">
             <li class="secNav-menu-item">
@@ -79,45 +80,14 @@
         </menu>
     </nav>
 
-    <main>
-        <section class="opening-contact">
-            <h1 class="openingHour-main-title">Öppetider och Kontakt</h1>
-            <h2 class="sec-title">Våra Öppetider</h2>
-            <ul class="opening-hours">
-                <li>Måndag: 10.00-21.00</li>
-                <br />
-                <li>Tisdag: 10.00-21.00</li>
-                <br />
-                <li>Onsdag: 10.00-21.00</li>
-                <br />
-                <li>Torsdag: 10.00-21.00</li>
-                <br />
-                <li>Fredag: 10.00-23.00</li>
-                <br />
-                <li>Lördag: 10.00-23.00</li>
-                <br />
-                <li>Söndag: 10.00-20.00</li>
-                <br />
-                <li class="avikande">
-                    Avikande öppettider: Röda dagar: 11.00 - 22.00
-                </li>
-            </ul>
-            <br />
-            <br />
-            <h2 class="contact-us">Kontakta oss</h2>
-            <ul class="contact-info">
-                <li>Telefonnummer: 010-7308579</li>
-                <li>E-mail: <u>info@lnlcinema.com</u></li>
-                <li>Support öppettider: Måndag - Fredag: 09.00 - 17</li>
-            </ul>
+    <div class="picture-container"></div>
 
-            <h2 class="hyra">Vi hyr ut!</h2>
-            <p class="hyr-oss">
-                Våra salonger går även att hyra ut! <br />Kontakta oss via
-                <u>boka@lnlcinema.com</u>
-            </p>
-        </section>
-    </main>
+    <!--     modal  -->
+    <div class="modal-container">
+        <div class="cinema-modal"></div>
+    </div>
+
+    <a id="movieSiteLink" href="/movies">Våra Filmer!</a>
 
     <footer class="footer">
         <div class="footer-sections">
@@ -128,23 +98,25 @@
         <div class="footer-sections">
             <h3>Kontakta oss</h3>
             <a href="#">
-                <img class="social-media-links" src="../static/facebook.svg" alt="facebook icon" /></a>
+                <img class="social-media-links" src="static/facebook.svg" alt="facebook icon" /></a>
             <a href="#">
-                <img class="social-media-links" src="../static/instagram.svg" alt="instagram icon" /></a>
+                <img class="social-media-links" src="static/instagram.svg" alt="instagram icon" /></a>
             <a href="#">
-                <img class="social-media-links" src="../static/twitter.svg" alt="twitter icon" /></a>
+                <img class="social-media-links" src="static/twitter.svg" alt="twitter icon" /></a>
             <a href="mailto:">
-                <img class="social-media-links" src="../static/mail.svg" alt="mail icon" /></a>
+                <img class="social-media-links" src="static/mail.svg" alt="mail icon" /></a>
             <p>Telefon: 010-7308579</p>
         </div>
         <div class="footer-sections">
             <h3>Samarbete med</h3>
-            <img id="municipality-logo" src="../static/kommun-logo.svg" alt="municipality for our city" />
-            <img id="cinema-collab" src="../static/europa-cinemas.png" alt="cinema collab" />
+            <img id="municipality-logo" src="static/kommun-logo.svg" alt="municipality for our city" />
+            <img id="cinema-collab" src="static/europa-cinemas.png" alt="cinema collab" />
         </div>
     </footer>
-    <script src="../js/script.js"></script>
-    <script src="../js/secNav/secNav.js" type="module"></script>
+
+    <!--     <script src="../js/script.js"></script>
+ -->
+    <!--     <script src="js/secNav/secNav.js" type="module"></script> -->
 </body>
 
 </html>
