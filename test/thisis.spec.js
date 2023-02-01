@@ -1,5 +1,5 @@
 import jest from "jest";
-import fs from "fs/promises"
+import fs from "fs"
 
     test('File has expected filename', () =>{
         const filename = 'thisisfile.md';
