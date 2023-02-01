@@ -1,5 +1,4 @@
 import jest from "jest";
-import fetch from "fetch-node";
 import fs from "fs/promises"
 
 describe("Checks if file is .md")
