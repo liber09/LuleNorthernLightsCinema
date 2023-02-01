@@ -6,7 +6,8 @@
   "scripts": {
     "sass": "sass --no-source-map src/main.scss static/main.css",
     "watch": "sass --no-source-map --watch src/main.scss static/main.css",
-    "start": "nodemon ."
+    "start": "nodemon .",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
