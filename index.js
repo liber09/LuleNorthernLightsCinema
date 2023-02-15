@@ -94,3 +94,5 @@ app.get("/movies/:movieId", async(req, res) => {
 app.use("/static", express.static("./static"));
 
 app.listen(5080);
+
+export default app;
